@@ -22,10 +22,10 @@ Researchers on quantum hardware device design, quantum device manufacture, and q
 
 ## Publications
 
-- Junyao Zhang, Hanrui Wang, Qi Ding, Jiaqi Gu, Reouven Assouly, William D Oliver, Song Han, Kenneth R Brown, Hai Li, Yiran Chen,
-  "**Qplacer: Frequency-Aware Component Placement for Superconducting Quantum Computers**",
-  arxiv, 2023
-  ([preprint](https://arxiv.org/abs/2401.17450))
+-  Junyao Zhang, Hanrui Wang, Qi Ding, Jiaqi Gu, Reouven Assouly, William D. Oliver, Song Han, Kenneth R. Brown, Hai “Helen” Li, Yiran Chen. **“Qplacer: Frequency-Aware Placement for Superconducting Quantum Computers”**. ACM/IEEE 52nd Annual International Symposium on Computer Architecture (ISCA), 2025
+  ([paper](https://arxiv.org/abs/2401.17450))
+-  **(Best Paper Candidate)** Junyao Zhang, Guanglei Zhou, Feng Cheng, Jonathan Hao-Cheng Ku, Qi Ding, Jiaqi Gu, Hanrui Wang, Hai “Helen” Li, Yiran Chen. “qLDP: Quantum Legalization and Detailed Placement for Superconducting Quantum Computers”. Design, Automation & Test in Europe Conference & Exhibition (DATE), 2025 
+  ([paper](https://arxiv.org/abs/2411.02447))
 
 
 ## Installation
@@ -142,5 +142,16 @@ Junyao Zhang [Email](mailto:jz420@duke.edu), [Github issue](https://github.com/J
       eprint={2401.17450},
       archivePrefix={arXiv},
       primaryClass={quant-ph}
+}
+```
+```
+@misc{zhang2024qgdpquantumlegalizationdetailed,
+      title={qGDP: Quantum Legalization and Detailed Placement for Superconducting Quantum Computers}, 
+      author={Junyao Zhang and Guanglei Zhou and Feng Cheng and Jonathan Ku and Qi Ding and Jiaqi Gu and Hanrui Wang and Hai "Helen" Li and Yiran Chen},
+      year={2024},
+      eprint={2411.02447},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2411.02447}, 
 }
 ```
