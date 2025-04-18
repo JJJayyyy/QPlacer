@@ -1,4 +1,4 @@
-torch==1.7.1
+torch==2.6.0
 pyunpack>=0.1.2
 patool>=1.12
 pkgconfig>=1.4.0
