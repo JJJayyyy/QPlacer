@@ -1,4 +1,4 @@
-<h1><p align="center"> Qplacer: Deep learning toolkit-enable Superconducting Physical Qubit Placement </p></h2>
+<h1><p align="center"> QPlacer: Deep learning toolkit-enable Superconducting Physical Qubit Placement </p></h2>
 
 
 #### What it is doing
@@ -22,7 +22,7 @@ Researchers on quantum hardware device design, quantum device manufacture, and q
 
 ## Publications
 
--  Junyao Zhang, Hanrui Wang, Qi Ding, Jiaqi Gu, Reouven Assouly, William D. Oliver, Song Han, Kenneth R. Brown, Hai “Helen” Li, Yiran Chen. **“Qplacer: Frequency-Aware Placement for Superconducting Quantum Computers”**. ACM/IEEE 52nd Annual International Symposium on Computer Architecture (ISCA), 2025
+-  Junyao Zhang, Hanrui Wang, Qi Ding, Jiaqi Gu, Reouven Assouly, William D. Oliver, Song Han, Kenneth R. Brown, Hai “Helen” Li, Yiran Chen. **“QPlacer: Frequency-Aware Placement for Superconducting Quantum Computers”**. ACM/IEEE 52nd Annual International Symposium on Computer Architecture (ISCA), 2025
   ([paper](https://arxiv.org/abs/2401.17450))
 -  **(Best Paper Candidate)** Junyao Zhang, Guanglei Zhou, Feng Cheng, Jonathan Hao-Cheng Ku, Qi Ding, Jiaqi Gu, Hanrui Wang, Hai “Helen” Li, Yiran Chen. “qLDP: Quantum Legalization and Detailed Placement for Superconducting Quantum Computers”. Design, Automation & Test in Europe Conference & Exhibition (DATE), 2025 
   ([paper](https://arxiv.org/abs/2411.02447))
