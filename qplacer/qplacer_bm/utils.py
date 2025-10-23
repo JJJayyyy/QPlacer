@@ -6,6 +6,17 @@ import pickle
 import os
 import re
 
+try:
+    from . import qplacement_database, qplacement_param
+    # Also add them to sys.modules with the names pickle expects
+    sys.modules['qplacement_database'] = qplacement_database
+    sys.modules['qplacement_param'] = qplacement_param
+except ImportError:
+    import qplacement_database
+    import qplacement_param
+    sys.modules['qplacement_database'] = qplacement_database
+    sys.modules['qplacement_param'] = qplacement_param
+
 
 def create_polygon(size, position):
     (width, height), (x, y) = size, position
