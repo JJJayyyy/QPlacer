@@ -26,6 +26,10 @@ qplacer/run.sh
 qplacer/*.ipynb
 qplacer/*.pkl
 
+# Exclude generated evaluation outputs
+qplacer/device_data.pkl
+qplacer/simulation_result/
+
 .DS_Store
 .AppleDouble
 .LSOverride
