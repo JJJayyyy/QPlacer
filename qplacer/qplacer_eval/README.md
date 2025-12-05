@@ -82,3 +82,14 @@ networkx==2.8.7
 - `CIRCUITS`: Quantum circuits to simulate
 - `NUM_MAPPING`: Number of qubit mappings to test
 - `RESULT_DIR`: Output directory for results
+
+## Example: Grid-25 Topology
+
+An evaluation example using **grid-25** (5×5 grid topology) is provided in:
+- Benchmarks: `../benchmarks/Qplace_benchmark/grid-25_*/`
+- Results: `../results/grid-25/`
+
+Three placement strategies are compared:
+- **`wp_wf_03`**: QPlacer frequency-aware placement
+- **`classical`**: Traditional wirelength-based placement
+- **`default`**: Human-designed placement

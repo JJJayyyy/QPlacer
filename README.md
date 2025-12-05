@@ -131,15 +131,15 @@ python qplacer_engine/Placer.py test/grid-25/wp_wf/grid-25_wp_wf.json
 
 ## Evaluation and Analysis
 
-### Evaluation Module
+1. **Evaluation Module:** 
 Circuit evaluation framework adapted from [FastSC](https://github.com/yongshanding/FastSC). This module provides:
-- Success rate calculations considering crosstalk and decoherence
-- Quantum circuit simulation on characterized devices
-- Performance benchmarking tools
+   - Success rate calculations considering crosstalk and decoherence
+   - Quantum circuit simulation on characterized devices
+   - Performance benchmarking tools
 
-For more details, see [qplacer/evaluation/README.md](qplacer/evaluation/README.md)
+   For more details, see [qplacer/evaluation/README.md](qplacer/evaluation/README.md)
 
-### QPlacer Evaluation Scripts
+2. **QPlacer Evaluation Scripts:** 
 Post-placement analysis tools for device characterization and circuit simulation. See [qplacer/qplacer_eval/README.md](qplacer/qplacer_eval/README.md) for setup and usage instructions.
 
 
