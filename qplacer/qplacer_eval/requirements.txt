@@ -1,0 +1,14 @@
+# Core dependencies
+numpy==1.26.4
+scipy==1.13.1
+networkx==2.8.7
+
+# Quantum computing
+qiskit==0.39.5
+qiskit-terra==0.22.4
+qiskit-metal==0.1.2
+
+# Visualization and geometry
+matplotlib==3.6.0
+shapely==1.8.5.post1
+geopandas==0.14.4

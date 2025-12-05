@@ -5,6 +5,7 @@ import logging
 import pickle
 import os
 import re
+import sys
 
 try:
     from . import qplacement_database, qplacement_param

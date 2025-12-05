@@ -129,6 +129,16 @@ Navigate to directory `qplacer` and run `qplacer_engine/Placer.py` with `json` c
 python qplacer_engine/Placer.py test/grid-25/wp_wf/grid-25_wp_wf.json
 ```
 
+## Evaluation and Analysis
+
+Circuit evaluation framework adapted from [FastSC](https://github.com/yongshanding/FastSC). This module provides:
+- Success rate calculations considering crosstalk and decoherence
+- Quantum circuit simulation on characterized devices
+- Performance benchmarking tools
+
+For more details, see [qplacer/evaluation/README.md](qplacer/evaluation/README.md)
+
+
 ## Contact
 Junyao Zhang [Email](mailto:jz420@duke.edu), [Github issue](https://github.com/JJJayyyy/Qplacer/issues)
 
