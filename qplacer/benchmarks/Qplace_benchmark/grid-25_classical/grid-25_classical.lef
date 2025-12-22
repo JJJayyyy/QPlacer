@@ -1,0 +1,86 @@
+VERSION 5.8 ;
+
+BUSBITCHARS "[]" ;
+
+DIVIDERCHAR "/" ;
+
+UNITS
+    DATABASE MICRONS 1000 ;
+END UNITS
+
+MANUFACTURINGGRID 0.000500 ;
+
+CLEARANCEMEASURE EUCLIDEAN ;
+USEMINSPACING OBS ON ;
+
+SITE CoreSite
+    CLASS CORE ;
+    SIZE 0.300 BY 0.300 ;
+END CoreSite
+
+MACRO QUBIT
+    CLASS CORE ;
+    FOREIGN QUBIT 0.000000 0.000000 ;
+    ORIGIN 0.000000 0.000000 ;
+    SIZE 1.200000 BY 1.200000 ;
+    SYMMETRY X Y ;
+    PIN nw
+        DIRECTION INPUT ;
+        USE SIGNAL ;
+        PORT
+        LAYER Metal1 ;
+        RECT 0.000000 0.755000 0.410000 0.840000 ;
+        END
+    END nw
+    PIN sw
+        DIRECTION INPUT ;
+        USE SIGNAL ;
+        PORT
+        LAYER Metal1 ;
+        RECT 0.000000 0.360000 0.410000 0.445000 ;
+        END
+    END sw
+    PIN se
+        DIRECTION INPUT ;
+        USE SIGNAL ;
+        PORT
+        LAYER Metal1 ;
+        RECT 0.790000 0.360000 1.200000 0.445000 ;
+        END
+    END se
+    PIN ne
+        DIRECTION INPUT ;
+        USE SIGNAL ;
+        PORT
+        LAYER Metal1 ;
+        RECT 0.790000 0.755000 1.200000 0.840000 ;
+        END
+    END ne
+END QUBIT
+
+MACRO WIRE_BLK
+    CLASS CORE ;
+    FOREIGN WIRE_BLK 0.000000 0.000000 ;
+    ORIGIN 0.000000 0.000000 ;
+    SIZE 0.300000 BY 0.300000 ;
+    SYMMETRY X Y ;
+    SITE CoreSite ;
+    PIN IN
+        DIRECTION INPUT ;
+        USE SIGNAL ;
+        PORT
+        LAYER Metal1 ;
+        RECT 0.000000 0.030000 0.030000 0.060000 ;
+        END
+    END IN
+    PIN OUT
+        DIRECTION OUTPUT ;
+        USE SIGNAL ;
+        PORT
+        LAYER Metal1 ;
+        RECT 0.270000 0.240000 0.300000 0.270000 ;
+        END
+    END OUT
+END WIRE_BLK
+
+END LIBRARY

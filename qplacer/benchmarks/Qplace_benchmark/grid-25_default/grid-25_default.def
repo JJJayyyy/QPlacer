@@ -1,0 +1,2014 @@
+VERSION 5.8 ;
+
+BUSBITCHARS "[]" ;
+
+DIVIDERCHAR "/" ;
+
+DESIGN METAL_TEST ;
+
+UNITS DISTANCE MICRONS 1000 ;
+
+DIEAREA ( 0 0 ) ( 13000 13000 ) ;
+
+ROW CORE_ROW_0  CoreSite 0 300   N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_1  CoreSite 0 600   FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_2  CoreSite 0 900   N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_3  CoreSite 0 1200  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_4  CoreSite 0 1500  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_5  CoreSite 0 1800  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_6  CoreSite 0 2100  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_7  CoreSite 0 2400  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_8  CoreSite 0 2700  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_9  CoreSite 0 3000  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_10 CoreSite 0 3300  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_11 CoreSite 0 3600  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_12 CoreSite 0 3900  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_13 CoreSite 0 4200  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_14 CoreSite 0 4500  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_15 CoreSite 0 4800  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_16 CoreSite 0 5100  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_17 CoreSite 0 5400  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_18 CoreSite 0 5700  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_19 CoreSite 0 6000  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_20 CoreSite 0 6300  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_21 CoreSite 0 6600  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_22 CoreSite 0 6900  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_23 CoreSite 0 7200  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_24 CoreSite 0 7500  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_25 CoreSite 0 7800  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_26 CoreSite 0 8100  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_27 CoreSite 0 8400  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_28 CoreSite 0 8700  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_29 CoreSite 0 9000  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_30 CoreSite 0 9300  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_31 CoreSite 0 9600  FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_32 CoreSite 0 9900  N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_33 CoreSite 0 10200 FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_34 CoreSite 0 10500 N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_35 CoreSite 0 10800 FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_36 CoreSite 0 11100 N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_37 CoreSite 0 11400 FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_38 CoreSite 0 11700 N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_39 CoreSite 0 12000 FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_40 CoreSite 0 12300 N  DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_41 CoreSite 0 12600 FS DO 43 BY 1 STEP 300 0 ;
+ROW CORE_ROW_42 CoreSite 0 12900 N  DO 43 BY 1 STEP 300 0 ;
+
+COMPONENTS 65 ;
+- Q0  QUBIT + PLACED ( 0     12000 ) N ;
+- Q1  QUBIT + PLACED ( 3000  12000 ) N ;
+- Q2  QUBIT + PLACED ( 6000  12000 ) N ;
+- Q3  QUBIT + PLACED ( 9000  12000 ) N ;
+- Q4  QUBIT + PLACED ( 12000 12000 ) N ;
+- Q5  QUBIT + PLACED ( 0     9000  ) N ;
+- Q6  QUBIT + PLACED ( 3000  9000  ) N ;
+- Q7  QUBIT + PLACED ( 6000  9000  ) N ;
+- Q8  QUBIT + PLACED ( 9000  9000  ) N ;
+- Q9  QUBIT + PLACED ( 12000 9000  ) N ;
+- Q10 QUBIT + PLACED ( 0     6000  ) N ;
+- Q11 QUBIT + PLACED ( 3000  6000  ) N ;
+- Q12 QUBIT + PLACED ( 6000  6000  ) N ;
+- Q13 QUBIT + PLACED ( 9000  6000  ) N ;
+- Q14 QUBIT + PLACED ( 12000 6000  ) N ;
+- Q15 QUBIT + PLACED ( 0     3000  ) N ;
+- Q16 QUBIT + PLACED ( 3000  3000  ) N ;
+- Q17 QUBIT + PLACED ( 6000  3000  ) N ;
+- Q18 QUBIT + PLACED ( 9000  3000  ) N ;
+- Q19 QUBIT + PLACED ( 12000 3000  ) N ;
+- Q20 QUBIT + PLACED ( 0     0     ) N ;
+- Q21 QUBIT + PLACED ( 3000  0     ) N ;
+- Q22 QUBIT + PLACED ( 6000  0     ) N ;
+- Q23 QUBIT + PLACED ( 9000  0     ) N ;
+- Q24 QUBIT + PLACED ( 12000 0     ) N ;
+- poly_aaa WIRE_BLK + PLACED ( 1350  12900 ) N ;
+- poly_aab WIRE_BLK + PLACED ( 1350  12600 ) N ;
+- poly_aac WIRE_BLK + PLACED ( 1350  12300 ) N ;
+- poly_aad WIRE_BLK + PLACED ( 1350  12000 ) N ;
+- poly_aae WIRE_BLK + PLACED ( 1950  12900 ) N ;
+- poly_aaf WIRE_BLK + PLACED ( 1950  12600 ) N ;
+- poly_aag WIRE_BLK + PLACED ( 1950  12300 ) N ;
+- poly_aah WIRE_BLK + PLACED ( 1950  12000 ) N ;
+- poly_aai WIRE_BLK + PLACED ( 2550  12900 ) N ;
+- poly_aaj WIRE_BLK + PLACED ( 2550  12600 ) N ;
+- poly_aak WIRE_BLK + PLACED ( 2550  12300 ) N ;
+- poly_aal WIRE_BLK + PLACED ( 2550  12000 ) N ;
+- poly_aam WIRE_BLK + PLACED ( 0     10350 ) N ;
+- poly_aan WIRE_BLK + PLACED ( 300   10350 ) N ;
+- poly_aao WIRE_BLK + PLACED ( 600   10350 ) N ;
+- poly_aap WIRE_BLK + PLACED ( 900   10350 ) N ;
+- poly_aaq WIRE_BLK + PLACED ( 0     10950 ) N ;
+- poly_aar WIRE_BLK + PLACED ( 300   10950 ) N ;
+- poly_aas WIRE_BLK + PLACED ( 600   10950 ) N ;
+- poly_aat WIRE_BLK + PLACED ( 900   10950 ) N ;
+- poly_aau WIRE_BLK + PLACED ( 0     11550 ) N ;
+- poly_aav WIRE_BLK + PLACED ( 300   11550 ) N ;
+- poly_aaw WIRE_BLK + PLACED ( 600   11550 ) N ;
+- poly_aax WIRE_BLK + PLACED ( 900   11550 ) N ;
+- poly_aay WIRE_BLK + PLACED ( 4350  12900 ) N ;
+- poly_aaz WIRE_BLK + PLACED ( 4350  12600 ) N ;
+- poly_aa0 WIRE_BLK + PLACED ( 4350  12300 ) N ;
+- poly_aa1 WIRE_BLK + PLACED ( 4350  12000 ) N ;
+- poly_aa2 WIRE_BLK + PLACED ( 4950  12900 ) N ;
+- poly_aa3 WIRE_BLK + PLACED ( 4950  12600 ) N ;
+- poly_aa4 WIRE_BLK + PLACED ( 4950  12300 ) N ;
+- poly_aa5 WIRE_BLK + PLACED ( 4950  12000 ) N ;
+- poly_aa6 WIRE_BLK + PLACED ( 5550  12900 ) N ;
+- poly_aa7 WIRE_BLK + PLACED ( 5550  12600 ) N ;
+- poly_aa8 WIRE_BLK + PLACED ( 5550  12300 ) N ;
+- poly_aa9 WIRE_BLK + PLACED ( 5550  12000 ) N ;
+- poly_aba WIRE_BLK + PLACED ( 3300  10350 ) N ;
+- poly_abb WIRE_BLK + PLACED ( 3600  10350 ) N ;
+- poly_abc WIRE_BLK + PLACED ( 3900  10350 ) N ;
+- poly_abd WIRE_BLK + PLACED ( 3000  10950 ) N ;
+- poly_abe WIRE_BLK + PLACED ( 3300  10950 ) N ;
+- poly_abf WIRE_BLK + PLACED ( 3600  10950 ) N ;
+- poly_abg WIRE_BLK + PLACED ( 3900  10950 ) N ;
+- poly_abh WIRE_BLK + PLACED ( 3000  11550 ) N ;
+- poly_abi WIRE_BLK + PLACED ( 3300  11550 ) N ;
+- poly_abj WIRE_BLK + PLACED ( 3600  11550 ) N ;
+- poly_abk WIRE_BLK + PLACED ( 3900  11550 ) N ;
+- poly_abl WIRE_BLK + PLACED ( 7350  12600 ) N ;
+- poly_abm WIRE_BLK + PLACED ( 7350  12300 ) N ;
+- poly_abn WIRE_BLK + PLACED ( 7350  12000 ) N ;
+- poly_abo WIRE_BLK + PLACED ( 7950  12900 ) N ;
+- poly_abp WIRE_BLK + PLACED ( 7950  12600 ) N ;
+- poly_abq WIRE_BLK + PLACED ( 7950  12300 ) N ;
+- poly_abr WIRE_BLK + PLACED ( 7950  12000 ) N ;
+- poly_abs WIRE_BLK + PLACED ( 8550  12900 ) N ;
+- poly_abt WIRE_BLK + PLACED ( 8550  12600 ) N ;
+- poly_abu WIRE_BLK + PLACED ( 8550  12300 ) N ;
+- poly_abv WIRE_BLK + PLACED ( 8550  12000 ) N ;
+- poly_abw WIRE_BLK + PLACED ( 6300  10350 ) N ;
+- poly_abx WIRE_BLK + PLACED ( 6600  10350 ) N ;
+- poly_aby WIRE_BLK + PLACED ( 6900  10350 ) N ;
+- poly_abz WIRE_BLK + PLACED ( 6000  10950 ) N ;
+- poly_ab0 WIRE_BLK + PLACED ( 6300  10950 ) N ;
+- poly_ab1 WIRE_BLK + PLACED ( 6600  10950 ) N ;
+- poly_ab2 WIRE_BLK + PLACED ( 6900  10950 ) N ;
+- poly_ab3 WIRE_BLK + PLACED ( 6000  11550 ) N ;
+- poly_ab4 WIRE_BLK + PLACED ( 6300  11550 ) N ;
+- poly_ab5 WIRE_BLK + PLACED ( 6600  11550 ) N ;
+- poly_ab6 WIRE_BLK + PLACED ( 6900  11550 ) N ;
+- poly_ab7 WIRE_BLK + PLACED ( 10350 12900 ) N ;
+- poly_ab8 WIRE_BLK + PLACED ( 10350 12600 ) N ;
+- poly_ab9 WIRE_BLK + PLACED ( 10350 12300 ) N ;
+- poly_aca WIRE_BLK + PLACED ( 10350 12000 ) N ;
+- poly_acb WIRE_BLK + PLACED ( 10950 12900 ) N ;
+- poly_acc WIRE_BLK + PLACED ( 10950 12600 ) N ;
+- poly_acd WIRE_BLK + PLACED ( 10950 12300 ) N ;
+- poly_ace WIRE_BLK + PLACED ( 10950 12000 ) N ;
+- poly_acf WIRE_BLK + PLACED ( 11550 12900 ) N ;
+- poly_acg WIRE_BLK + PLACED ( 11550 12600 ) N ;
+- poly_ach WIRE_BLK + PLACED ( 11550 12300 ) N ;
+- poly_aci WIRE_BLK + PLACED ( 11550 12000 ) N ;
+- poly_acj WIRE_BLK + PLACED ( 9600  10350 ) N ;
+- poly_ack WIRE_BLK + PLACED ( 9900  10350 ) N ;
+- poly_acl WIRE_BLK + PLACED ( 9000  10750 ) N ;
+- poly_acm WIRE_BLK + PLACED ( 9300  10750 ) N ;
+- poly_acn WIRE_BLK + PLACED ( 9600  10750 ) N ;
+- poly_aco WIRE_BLK + PLACED ( 9900  10750 ) N ;
+- poly_acp WIRE_BLK + PLACED ( 9000  11150 ) N ;
+- poly_acq WIRE_BLK + PLACED ( 9300  11150 ) N ;
+- poly_acr WIRE_BLK + PLACED ( 9600  11150 ) N ;
+- poly_acs WIRE_BLK + PLACED ( 9900  11150 ) N ;
+- poly_act WIRE_BLK + PLACED ( 9300  11550 ) N ;
+- poly_acu WIRE_BLK + PLACED ( 9600  11550 ) N ;
+- poly_acv WIRE_BLK + PLACED ( 9900  11550 ) N ;
+- poly_acw WIRE_BLK + PLACED ( 12000 10350 ) N ;
+- poly_acx WIRE_BLK + PLACED ( 12300 10350 ) N ;
+- poly_acy WIRE_BLK + PLACED ( 12600 10350 ) N ;
+- poly_acz WIRE_BLK + PLACED ( 12900 10350 ) N ;
+- poly_ac0 WIRE_BLK + PLACED ( 12000 10950 ) N ;
+- poly_ac1 WIRE_BLK + PLACED ( 12300 10950 ) N ;
+- poly_ac2 WIRE_BLK + PLACED ( 12600 10950 ) N ;
+- poly_ac3 WIRE_BLK + PLACED ( 12900 10950 ) N ;
+- poly_ac4 WIRE_BLK + PLACED ( 12000 11550 ) N ;
+- poly_ac5 WIRE_BLK + PLACED ( 12300 11550 ) N ;
+- poly_ac6 WIRE_BLK + PLACED ( 12600 11550 ) N ;
+- poly_ac7 WIRE_BLK + PLACED ( 12900 11550 ) N ;
+- poly_ac8 WIRE_BLK + PLACED ( 1350  9600  ) N ;
+- poly_ac9 WIRE_BLK + PLACED ( 1350  9300  ) N ;
+- poly_ada WIRE_BLK + PLACED ( 1350  9000  ) N ;
+- poly_adb WIRE_BLK + PLACED ( 1950  9900  ) N ;
+- poly_adc WIRE_BLK + PLACED ( 1950  9600  ) N ;
+- poly_add WIRE_BLK + PLACED ( 1950  9300  ) N ;
+- poly_ade WIRE_BLK + PLACED ( 1950  9000  ) N ;
+- poly_adf WIRE_BLK + PLACED ( 2550  9900  ) N ;
+- poly_adg WIRE_BLK + PLACED ( 2550  9600  ) N ;
+- poly_adh WIRE_BLK + PLACED ( 2550  9300  ) N ;
+- poly_adi WIRE_BLK + PLACED ( 2550  9000  ) N ;
+- poly_adj WIRE_BLK + PLACED ( 300   7350  ) N ;
+- poly_adk WIRE_BLK + PLACED ( 600   7350  ) N ;
+- poly_adl WIRE_BLK + PLACED ( 900   7350  ) N ;
+- poly_adm WIRE_BLK + PLACED ( 0     7950  ) N ;
+- poly_adn WIRE_BLK + PLACED ( 300   7950  ) N ;
+- poly_ado WIRE_BLK + PLACED ( 600   7950  ) N ;
+- poly_adp WIRE_BLK + PLACED ( 900   7950  ) N ;
+- poly_adq WIRE_BLK + PLACED ( 0     8550  ) N ;
+- poly_adr WIRE_BLK + PLACED ( 300   8550  ) N ;
+- poly_ads WIRE_BLK + PLACED ( 600   8550  ) N ;
+- poly_adt WIRE_BLK + PLACED ( 900   8550  ) N ;
+- poly_adu WIRE_BLK + PLACED ( 4350  9600  ) N ;
+- poly_adv WIRE_BLK + PLACED ( 4350  9300  ) N ;
+- poly_adw WIRE_BLK + PLACED ( 4350  9000  ) N ;
+- poly_adx WIRE_BLK + PLACED ( 4950  9900  ) N ;
+- poly_ady WIRE_BLK + PLACED ( 4950  9600  ) N ;
+- poly_adz WIRE_BLK + PLACED ( 4950  9300  ) N ;
+- poly_ad0 WIRE_BLK + PLACED ( 4950  9000  ) N ;
+- poly_ad1 WIRE_BLK + PLACED ( 5550  9900  ) N ;
+- poly_ad2 WIRE_BLK + PLACED ( 5550  9600  ) N ;
+- poly_ad3 WIRE_BLK + PLACED ( 5550  9300  ) N ;
+- poly_ad4 WIRE_BLK + PLACED ( 5550  9000  ) N ;
+- poly_ad5 WIRE_BLK + PLACED ( 3300  7350  ) N ;
+- poly_ad6 WIRE_BLK + PLACED ( 3600  7350  ) N ;
+- poly_ad7 WIRE_BLK + PLACED ( 3900  7350  ) N ;
+- poly_ad8 WIRE_BLK + PLACED ( 3000  7950  ) N ;
+- poly_ad9 WIRE_BLK + PLACED ( 3300  7950  ) N ;
+- poly_aea WIRE_BLK + PLACED ( 3600  7950  ) N ;
+- poly_aeb WIRE_BLK + PLACED ( 3900  7950  ) N ;
+- poly_aec WIRE_BLK + PLACED ( 3000  8550  ) N ;
+- poly_aed WIRE_BLK + PLACED ( 3300  8550  ) N ;
+- poly_aee WIRE_BLK + PLACED ( 3600  8550  ) N ;
+- poly_aef WIRE_BLK + PLACED ( 3900  8550  ) N ;
+- poly_aeg WIRE_BLK + PLACED ( 7350  9600  ) N ;
+- poly_aeh WIRE_BLK + PLACED ( 7350  9300  ) N ;
+- poly_aei WIRE_BLK + PLACED ( 7350  9000  ) N ;
+- poly_aej WIRE_BLK + PLACED ( 7950  9900  ) N ;
+- poly_aek WIRE_BLK + PLACED ( 7950  9600  ) N ;
+- poly_ael WIRE_BLK + PLACED ( 7950  9300  ) N ;
+- poly_aem WIRE_BLK + PLACED ( 7950  9000  ) N ;
+- poly_aen WIRE_BLK + PLACED ( 8550  9900  ) N ;
+- poly_aeo WIRE_BLK + PLACED ( 8550  9600  ) N ;
+- poly_aep WIRE_BLK + PLACED ( 8550  9300  ) N ;
+- poly_aeq WIRE_BLK + PLACED ( 8550  9000  ) N ;
+- poly_aer WIRE_BLK + PLACED ( 6000  7350  ) N ;
+- poly_aes WIRE_BLK + PLACED ( 6300  7350  ) N ;
+- poly_aet WIRE_BLK + PLACED ( 6600  7350  ) N ;
+- poly_aeu WIRE_BLK + PLACED ( 6900  7350  ) N ;
+- poly_aev WIRE_BLK + PLACED ( 6000  7950  ) N ;
+- poly_aew WIRE_BLK + PLACED ( 6300  7950  ) N ;
+- poly_aex WIRE_BLK + PLACED ( 6600  7950  ) N ;
+- poly_aey WIRE_BLK + PLACED ( 6900  7950  ) N ;
+- poly_aez WIRE_BLK + PLACED ( 6000  8550  ) N ;
+- poly_ae0 WIRE_BLK + PLACED ( 6300  8550  ) N ;
+- poly_ae1 WIRE_BLK + PLACED ( 6600  8550  ) N ;
+- poly_ae2 WIRE_BLK + PLACED ( 6900  8550  ) N ;
+- poly_ae3 WIRE_BLK + PLACED ( 10350 9900  ) N ;
+- poly_ae4 WIRE_BLK + PLACED ( 10350 9600  ) N ;
+- poly_ae5 WIRE_BLK + PLACED ( 10350 9300  ) N ;
+- poly_ae6 WIRE_BLK + PLACED ( 10350 9000  ) N ;
+- poly_ae7 WIRE_BLK + PLACED ( 10950 9900  ) N ;
+- poly_ae8 WIRE_BLK + PLACED ( 10950 9600  ) N ;
+- poly_ae9 WIRE_BLK + PLACED ( 10950 9300  ) N ;
+- poly_afa WIRE_BLK + PLACED ( 10950 9000  ) N ;
+- poly_afb WIRE_BLK + PLACED ( 11550 9900  ) N ;
+- poly_afc WIRE_BLK + PLACED ( 11550 9600  ) N ;
+- poly_afd WIRE_BLK + PLACED ( 11550 9300  ) N ;
+- poly_afe WIRE_BLK + PLACED ( 11550 9000  ) N ;
+- poly_aff WIRE_BLK + PLACED ( 9000  7350  ) N ;
+- poly_afg WIRE_BLK + PLACED ( 9300  7350  ) N ;
+- poly_afh WIRE_BLK + PLACED ( 9600  7350  ) N ;
+- poly_afi WIRE_BLK + PLACED ( 9900  7350  ) N ;
+- poly_afj WIRE_BLK + PLACED ( 9000  7950  ) N ;
+- poly_afk WIRE_BLK + PLACED ( 9300  7950  ) N ;
+- poly_afl WIRE_BLK + PLACED ( 9600  7950  ) N ;
+- poly_afm WIRE_BLK + PLACED ( 9900  7950  ) N ;
+- poly_afn WIRE_BLK + PLACED ( 9000  8550  ) N ;
+- poly_afo WIRE_BLK + PLACED ( 9300  8550  ) N ;
+- poly_afp WIRE_BLK + PLACED ( 9600  8550  ) N ;
+- poly_afq WIRE_BLK + PLACED ( 9900  8550  ) N ;
+- poly_afr WIRE_BLK + PLACED ( 12300 7350  ) N ;
+- poly_afs WIRE_BLK + PLACED ( 12600 7350  ) N ;
+- poly_aft WIRE_BLK + PLACED ( 12900 7350  ) N ;
+- poly_afu WIRE_BLK + PLACED ( 12000 7950  ) N ;
+- poly_afv WIRE_BLK + PLACED ( 12300 7950  ) N ;
+- poly_afw WIRE_BLK + PLACED ( 12600 7950  ) N ;
+- poly_afx WIRE_BLK + PLACED ( 12900 7950  ) N ;
+- poly_afy WIRE_BLK + PLACED ( 12000 8550  ) N ;
+- poly_afz WIRE_BLK + PLACED ( 12300 8550  ) N ;
+- poly_af0 WIRE_BLK + PLACED ( 12600 8550  ) N ;
+- poly_af1 WIRE_BLK + PLACED ( 12900 8550  ) N ;
+- poly_af2 WIRE_BLK + PLACED ( 1350  6900  ) N ;
+- poly_af3 WIRE_BLK + PLACED ( 1350  6600  ) N ;
+- poly_af4 WIRE_BLK + PLACED ( 1350  6300  ) N ;
+- poly_af5 WIRE_BLK + PLACED ( 1350  6000  ) N ;
+- poly_af6 WIRE_BLK + PLACED ( 1950  6900  ) N ;
+- poly_af7 WIRE_BLK + PLACED ( 1950  6600  ) N ;
+- poly_af8 WIRE_BLK + PLACED ( 1950  6300  ) N ;
+- poly_af9 WIRE_BLK + PLACED ( 1950  6000  ) N ;
+- poly_aga WIRE_BLK + PLACED ( 2550  6900  ) N ;
+- poly_agb WIRE_BLK + PLACED ( 2550  6600  ) N ;
+- poly_agc WIRE_BLK + PLACED ( 2550  6300  ) N ;
+- poly_agd WIRE_BLK + PLACED ( 2550  6000  ) N ;
+- poly_age WIRE_BLK + PLACED ( 0     4350  ) N ;
+- poly_agf WIRE_BLK + PLACED ( 300   4350  ) N ;
+- poly_agg WIRE_BLK + PLACED ( 600   4350  ) N ;
+- poly_agh WIRE_BLK + PLACED ( 900   4350  ) N ;
+- poly_agi WIRE_BLK + PLACED ( 0     4950  ) N ;
+- poly_agj WIRE_BLK + PLACED ( 300   4950  ) N ;
+- poly_agk WIRE_BLK + PLACED ( 600   4950  ) N ;
+- poly_agl WIRE_BLK + PLACED ( 900   4950  ) N ;
+- poly_agm WIRE_BLK + PLACED ( 0     5550  ) N ;
+- poly_agn WIRE_BLK + PLACED ( 300   5550  ) N ;
+- poly_ago WIRE_BLK + PLACED ( 600   5550  ) N ;
+- poly_agp WIRE_BLK + PLACED ( 900   5550  ) N ;
+- poly_agq WIRE_BLK + PLACED ( 4350  6600  ) N ;
+- poly_agr WIRE_BLK + PLACED ( 4350  6300  ) N ;
+- poly_ags WIRE_BLK + PLACED ( 4350  6000  ) N ;
+- poly_agt WIRE_BLK + PLACED ( 4950  6900  ) N ;
+- poly_agu WIRE_BLK + PLACED ( 4950  6600  ) N ;
+- poly_agv WIRE_BLK + PLACED ( 4950  6300  ) N ;
+- poly_agw WIRE_BLK + PLACED ( 4950  6000  ) N ;
+- poly_agx WIRE_BLK + PLACED ( 5550  6900  ) N ;
+- poly_agy WIRE_BLK + PLACED ( 5550  6600  ) N ;
+- poly_agz WIRE_BLK + PLACED ( 5550  6300  ) N ;
+- poly_ag0 WIRE_BLK + PLACED ( 5550  6000  ) N ;
+- poly_ag1 WIRE_BLK + PLACED ( 3000  4350  ) N ;
+- poly_ag2 WIRE_BLK + PLACED ( 3300  4350  ) N ;
+- poly_ag3 WIRE_BLK + PLACED ( 3600  4350  ) N ;
+- poly_ag4 WIRE_BLK + PLACED ( 3900  4350  ) N ;
+- poly_ag5 WIRE_BLK + PLACED ( 3000  4950  ) N ;
+- poly_ag6 WIRE_BLK + PLACED ( 3300  4950  ) N ;
+- poly_ag7 WIRE_BLK + PLACED ( 3600  4950  ) N ;
+- poly_ag8 WIRE_BLK + PLACED ( 3900  4950  ) N ;
+- poly_ag9 WIRE_BLK + PLACED ( 3000  5550  ) N ;
+- poly_aha WIRE_BLK + PLACED ( 3300  5550  ) N ;
+- poly_ahb WIRE_BLK + PLACED ( 3600  5550  ) N ;
+- poly_ahc WIRE_BLK + PLACED ( 3900  5550  ) N ;
+- poly_ahd WIRE_BLK + PLACED ( 7350  6600  ) N ;
+- poly_ahe WIRE_BLK + PLACED ( 7350  6300  ) N ;
+- poly_ahf WIRE_BLK + PLACED ( 7350  6000  ) N ;
+- poly_ahg WIRE_BLK + PLACED ( 7950  6900  ) N ;
+- poly_ahh WIRE_BLK + PLACED ( 7950  6600  ) N ;
+- poly_ahi WIRE_BLK + PLACED ( 7950  6300  ) N ;
+- poly_ahj WIRE_BLK + PLACED ( 7950  6000  ) N ;
+- poly_ahk WIRE_BLK + PLACED ( 8550  6900  ) N ;
+- poly_ahl WIRE_BLK + PLACED ( 8550  6600  ) N ;
+- poly_ahm WIRE_BLK + PLACED ( 8550  6300  ) N ;
+- poly_ahn WIRE_BLK + PLACED ( 8550  6000  ) N ;
+- poly_aho WIRE_BLK + PLACED ( 6300  4350  ) N ;
+- poly_ahp WIRE_BLK + PLACED ( 6600  4350  ) N ;
+- poly_ahq WIRE_BLK + PLACED ( 6900  4350  ) N ;
+- poly_ahr WIRE_BLK + PLACED ( 6000  4950  ) N ;
+- poly_ahs WIRE_BLK + PLACED ( 6300  4950  ) N ;
+- poly_aht WIRE_BLK + PLACED ( 6600  4950  ) N ;
+- poly_ahu WIRE_BLK + PLACED ( 6900  4950  ) N ;
+- poly_ahv WIRE_BLK + PLACED ( 6000  5550  ) N ;
+- poly_ahw WIRE_BLK + PLACED ( 6300  5550  ) N ;
+- poly_ahx WIRE_BLK + PLACED ( 6600  5550  ) N ;
+- poly_ahy WIRE_BLK + PLACED ( 6900  5550  ) N ;
+- poly_ahz WIRE_BLK + PLACED ( 10350 6900  ) N ;
+- poly_ah0 WIRE_BLK + PLACED ( 10350 6600  ) N ;
+- poly_ah1 WIRE_BLK + PLACED ( 10350 6300  ) N ;
+- poly_ah2 WIRE_BLK + PLACED ( 10350 6000  ) N ;
+- poly_ah3 WIRE_BLK + PLACED ( 10950 6900  ) N ;
+- poly_ah4 WIRE_BLK + PLACED ( 10950 6600  ) N ;
+- poly_ah5 WIRE_BLK + PLACED ( 10950 6300  ) N ;
+- poly_ah6 WIRE_BLK + PLACED ( 10950 6000  ) N ;
+- poly_ah7 WIRE_BLK + PLACED ( 11550 6900  ) N ;
+- poly_ah8 WIRE_BLK + PLACED ( 11550 6600  ) N ;
+- poly_ah9 WIRE_BLK + PLACED ( 11550 6300  ) N ;
+- poly_aia WIRE_BLK + PLACED ( 11550 6000  ) N ;
+- poly_aib WIRE_BLK + PLACED ( 9300  4350  ) N ;
+- poly_aic WIRE_BLK + PLACED ( 9600  4350  ) N ;
+- poly_aid WIRE_BLK + PLACED ( 9900  4350  ) N ;
+- poly_aie WIRE_BLK + PLACED ( 9000  4950  ) N ;
+- poly_aif WIRE_BLK + PLACED ( 9300  4950  ) N ;
+- poly_aig WIRE_BLK + PLACED ( 9600  4950  ) N ;
+- poly_aih WIRE_BLK + PLACED ( 9900  4950  ) N ;
+- poly_aii WIRE_BLK + PLACED ( 9000  5550  ) N ;
+- poly_aij WIRE_BLK + PLACED ( 9300  5550  ) N ;
+- poly_aik WIRE_BLK + PLACED ( 9600  5550  ) N ;
+- poly_ail WIRE_BLK + PLACED ( 9900  5550  ) N ;
+- poly_aim WIRE_BLK + PLACED ( 12000 4350  ) N ;
+- poly_ain WIRE_BLK + PLACED ( 12300 4350  ) N ;
+- poly_aio WIRE_BLK + PLACED ( 12600 4350  ) N ;
+- poly_aip WIRE_BLK + PLACED ( 12900 4350  ) N ;
+- poly_aiq WIRE_BLK + PLACED ( 12000 4950  ) N ;
+- poly_air WIRE_BLK + PLACED ( 12300 4950  ) N ;
+- poly_ais WIRE_BLK + PLACED ( 12600 4950  ) N ;
+- poly_ait WIRE_BLK + PLACED ( 12900 4950  ) N ;
+- poly_aiu WIRE_BLK + PLACED ( 12000 5550  ) N ;
+- poly_aiv WIRE_BLK + PLACED ( 12300 5550  ) N ;
+- poly_aiw WIRE_BLK + PLACED ( 12600 5550  ) N ;
+- poly_aix WIRE_BLK + PLACED ( 12900 5550  ) N ;
+- poly_aiy WIRE_BLK + PLACED ( 1350  3900  ) N ;
+- poly_aiz WIRE_BLK + PLACED ( 1350  3600  ) N ;
+- poly_ai0 WIRE_BLK + PLACED ( 1350  3300  ) N ;
+- poly_ai1 WIRE_BLK + PLACED ( 1350  3000  ) N ;
+- poly_ai2 WIRE_BLK + PLACED ( 1950  3900  ) N ;
+- poly_ai3 WIRE_BLK + PLACED ( 1950  3600  ) N ;
+- poly_ai4 WIRE_BLK + PLACED ( 1950  3300  ) N ;
+- poly_ai5 WIRE_BLK + PLACED ( 1950  3000  ) N ;
+- poly_ai6 WIRE_BLK + PLACED ( 2550  3900  ) N ;
+- poly_ai7 WIRE_BLK + PLACED ( 2550  3600  ) N ;
+- poly_ai8 WIRE_BLK + PLACED ( 2550  3300  ) N ;
+- poly_ai9 WIRE_BLK + PLACED ( 2550  3000  ) N ;
+- poly_aja WIRE_BLK + PLACED ( 300   1350  ) N ;
+- poly_ajb WIRE_BLK + PLACED ( 600   1350  ) N ;
+- poly_ajc WIRE_BLK + PLACED ( 900   1350  ) N ;
+- poly_ajd WIRE_BLK + PLACED ( 0     1950  ) N ;
+- poly_aje WIRE_BLK + PLACED ( 300   1950  ) N ;
+- poly_ajf WIRE_BLK + PLACED ( 600   1950  ) N ;
+- poly_ajg WIRE_BLK + PLACED ( 900   1950  ) N ;
+- poly_ajh WIRE_BLK + PLACED ( 0     2550  ) N ;
+- poly_aji WIRE_BLK + PLACED ( 300   2550  ) N ;
+- poly_ajj WIRE_BLK + PLACED ( 600   2550  ) N ;
+- poly_ajk WIRE_BLK + PLACED ( 900   2550  ) N ;
+- poly_ajl WIRE_BLK + PLACED ( 4350  3900  ) N ;
+- poly_ajm WIRE_BLK + PLACED ( 4350  3600  ) N ;
+- poly_ajn WIRE_BLK + PLACED ( 4350  3300  ) N ;
+- poly_ajo WIRE_BLK + PLACED ( 4350  3000  ) N ;
+- poly_ajp WIRE_BLK + PLACED ( 4950  3900  ) N ;
+- poly_ajq WIRE_BLK + PLACED ( 4950  3600  ) N ;
+- poly_ajr WIRE_BLK + PLACED ( 4950  3300  ) N ;
+- poly_ajs WIRE_BLK + PLACED ( 4950  3000  ) N ;
+- poly_ajt WIRE_BLK + PLACED ( 5550  3900  ) N ;
+- poly_aju WIRE_BLK + PLACED ( 5550  3600  ) N ;
+- poly_ajv WIRE_BLK + PLACED ( 5550  3300  ) N ;
+- poly_ajw WIRE_BLK + PLACED ( 5550  3000  ) N ;
+- poly_ajx WIRE_BLK + PLACED ( 3000  1350  ) N ;
+- poly_ajy WIRE_BLK + PLACED ( 3300  1350  ) N ;
+- poly_ajz WIRE_BLK + PLACED ( 3600  1350  ) N ;
+- poly_aj0 WIRE_BLK + PLACED ( 3900  1350  ) N ;
+- poly_aj1 WIRE_BLK + PLACED ( 3000  1950  ) N ;
+- poly_aj2 WIRE_BLK + PLACED ( 3300  1950  ) N ;
+- poly_aj3 WIRE_BLK + PLACED ( 3600  1950  ) N ;
+- poly_aj4 WIRE_BLK + PLACED ( 3900  1950  ) N ;
+- poly_aj5 WIRE_BLK + PLACED ( 3000  2550  ) N ;
+- poly_aj6 WIRE_BLK + PLACED ( 3300  2550  ) N ;
+- poly_aj7 WIRE_BLK + PLACED ( 3600  2550  ) N ;
+- poly_aj8 WIRE_BLK + PLACED ( 3900  2550  ) N ;
+- poly_aj9 WIRE_BLK + PLACED ( 7350  3900  ) N ;
+- poly_aka WIRE_BLK + PLACED ( 7350  3600  ) N ;
+- poly_akb WIRE_BLK + PLACED ( 7350  3300  ) N ;
+- poly_akc WIRE_BLK + PLACED ( 7350  3000  ) N ;
+- poly_akd WIRE_BLK + PLACED ( 7950  3900  ) N ;
+- poly_ake WIRE_BLK + PLACED ( 7950  3600  ) N ;
+- poly_akf WIRE_BLK + PLACED ( 7950  3300  ) N ;
+- poly_akg WIRE_BLK + PLACED ( 7950  3000  ) N ;
+- poly_akh WIRE_BLK + PLACED ( 8550  3900  ) N ;
+- poly_aki WIRE_BLK + PLACED ( 8550  3600  ) N ;
+- poly_akj WIRE_BLK + PLACED ( 8550  3300  ) N ;
+- poly_akk WIRE_BLK + PLACED ( 8550  3000  ) N ;
+- poly_akl WIRE_BLK + PLACED ( 6000  1350  ) N ;
+- poly_akm WIRE_BLK + PLACED ( 6300  1350  ) N ;
+- poly_akn WIRE_BLK + PLACED ( 6600  1350  ) N ;
+- poly_ako WIRE_BLK + PLACED ( 6900  1350  ) N ;
+- poly_akp WIRE_BLK + PLACED ( 6000  1950  ) N ;
+- poly_akq WIRE_BLK + PLACED ( 6300  1950  ) N ;
+- poly_akr WIRE_BLK + PLACED ( 6600  1950  ) N ;
+- poly_aks WIRE_BLK + PLACED ( 6900  1950  ) N ;
+- poly_akt WIRE_BLK + PLACED ( 6000  2550  ) N ;
+- poly_aku WIRE_BLK + PLACED ( 6300  2550  ) N ;
+- poly_akv WIRE_BLK + PLACED ( 6600  2550  ) N ;
+- poly_akw WIRE_BLK + PLACED ( 6900  2550  ) N ;
+- poly_akx WIRE_BLK + PLACED ( 10350 3900  ) N ;
+- poly_aky WIRE_BLK + PLACED ( 10350 3600  ) N ;
+- poly_akz WIRE_BLK + PLACED ( 10350 3300  ) N ;
+- poly_ak0 WIRE_BLK + PLACED ( 10350 3000  ) N ;
+- poly_ak1 WIRE_BLK + PLACED ( 10950 3900  ) N ;
+- poly_ak2 WIRE_BLK + PLACED ( 10950 3600  ) N ;
+- poly_ak3 WIRE_BLK + PLACED ( 10950 3300  ) N ;
+- poly_ak4 WIRE_BLK + PLACED ( 10950 3000  ) N ;
+- poly_ak5 WIRE_BLK + PLACED ( 11550 3900  ) N ;
+- poly_ak6 WIRE_BLK + PLACED ( 11550 3600  ) N ;
+- poly_ak7 WIRE_BLK + PLACED ( 11550 3300  ) N ;
+- poly_ak8 WIRE_BLK + PLACED ( 11550 3000  ) N ;
+- poly_ak9 WIRE_BLK + PLACED ( 9000  1350  ) N ;
+- poly_ala WIRE_BLK + PLACED ( 9300  1350  ) N ;
+- poly_alb WIRE_BLK + PLACED ( 9600  1350  ) N ;
+- poly_alc WIRE_BLK + PLACED ( 9900  1350  ) N ;
+- poly_ald WIRE_BLK + PLACED ( 9000  1950  ) N ;
+- poly_ale WIRE_BLK + PLACED ( 9300  1950  ) N ;
+- poly_alf WIRE_BLK + PLACED ( 9600  1950  ) N ;
+- poly_alg WIRE_BLK + PLACED ( 9900  1950  ) N ;
+- poly_alh WIRE_BLK + PLACED ( 9000  2550  ) N ;
+- poly_ali WIRE_BLK + PLACED ( 9300  2550  ) N ;
+- poly_alj WIRE_BLK + PLACED ( 9600  2550  ) N ;
+- poly_alk WIRE_BLK + PLACED ( 9900  2550  ) N ;
+- poly_all WIRE_BLK + PLACED ( 12000 1350  ) N ;
+- poly_alm WIRE_BLK + PLACED ( 12300 1350  ) N ;
+- poly_aln WIRE_BLK + PLACED ( 12600 1350  ) N ;
+- poly_alo WIRE_BLK + PLACED ( 12900 1350  ) N ;
+- poly_alp WIRE_BLK + PLACED ( 12000 1950  ) N ;
+- poly_alq WIRE_BLK + PLACED ( 12300 1950  ) N ;
+- poly_alr WIRE_BLK + PLACED ( 12600 1950  ) N ;
+- poly_als WIRE_BLK + PLACED ( 12900 1950  ) N ;
+- poly_alt WIRE_BLK + PLACED ( 12000 2550  ) N ;
+- poly_alu WIRE_BLK + PLACED ( 12300 2550  ) N ;
+- poly_alv WIRE_BLK + PLACED ( 12600 2550  ) N ;
+- poly_alw WIRE_BLK + PLACED ( 12900 2550  ) N ;
+- poly_alx WIRE_BLK + PLACED ( 1350  600   ) N ;
+- poly_aly WIRE_BLK + PLACED ( 1350  300   ) N ;
+- poly_alz WIRE_BLK + PLACED ( 1350  0     ) N ;
+- poly_al0 WIRE_BLK + PLACED ( 1950  900   ) N ;
+- poly_al1 WIRE_BLK + PLACED ( 1950  600   ) N ;
+- poly_al2 WIRE_BLK + PLACED ( 1950  300   ) N ;
+- poly_al3 WIRE_BLK + PLACED ( 1950  0     ) N ;
+- poly_al4 WIRE_BLK + PLACED ( 2550  900   ) N ;
+- poly_al5 WIRE_BLK + PLACED ( 2550  600   ) N ;
+- poly_al6 WIRE_BLK + PLACED ( 2550  300   ) N ;
+- poly_al7 WIRE_BLK + PLACED ( 2550  0     ) N ;
+- poly_al8 WIRE_BLK + PLACED ( 4350  900   ) N ;
+- poly_al9 WIRE_BLK + PLACED ( 4350  600   ) N ;
+- poly_ama WIRE_BLK + PLACED ( 4350  300   ) N ;
+- poly_amb WIRE_BLK + PLACED ( 4350  0     ) N ;
+- poly_amc WIRE_BLK + PLACED ( 4950  900   ) N ;
+- poly_amd WIRE_BLK + PLACED ( 4950  600   ) N ;
+- poly_ame WIRE_BLK + PLACED ( 4950  300   ) N ;
+- poly_amf WIRE_BLK + PLACED ( 4950  0     ) N ;
+- poly_amg WIRE_BLK + PLACED ( 5550  900   ) N ;
+- poly_amh WIRE_BLK + PLACED ( 5550  600   ) N ;
+- poly_ami WIRE_BLK + PLACED ( 5550  300   ) N ;
+- poly_amj WIRE_BLK + PLACED ( 5550  0     ) N ;
+- poly_amk WIRE_BLK + PLACED ( 8850  300   ) N ;
+- poly_aml WIRE_BLK + PLACED ( 8850  600   ) N ;
+- poly_amm WIRE_BLK + PLACED ( 8850  900   ) N ;
+- poly_amn WIRE_BLK + PLACED ( 8250  0     ) N ;
+- poly_amo WIRE_BLK + PLACED ( 8250  300   ) N ;
+- poly_amp WIRE_BLK + PLACED ( 8250  600   ) N ;
+- poly_amq WIRE_BLK + PLACED ( 8250  900   ) N ;
+- poly_amr WIRE_BLK + PLACED ( 7650  0     ) N ;
+- poly_ams WIRE_BLK + PLACED ( 7650  300   ) N ;
+- poly_amt WIRE_BLK + PLACED ( 7650  600   ) N ;
+- poly_amu WIRE_BLK + PLACED ( 7650  900   ) N ;
+- poly_amv WIRE_BLK + PLACED ( 10350 900   ) N ;
+- poly_amw WIRE_BLK + PLACED ( 10350 600   ) N ;
+- poly_amx WIRE_BLK + PLACED ( 10350 300   ) N ;
+- poly_amy WIRE_BLK + PLACED ( 10350 0     ) N ;
+- poly_amz WIRE_BLK + PLACED ( 10950 900   ) N ;
+- poly_am0 WIRE_BLK + PLACED ( 10950 600   ) N ;
+- poly_am1 WIRE_BLK + PLACED ( 10950 300   ) N ;
+- poly_am2 WIRE_BLK + PLACED ( 10950 0     ) N ;
+- poly_am3 WIRE_BLK + PLACED ( 11550 900   ) N ;
+- poly_am4 WIRE_BLK + PLACED ( 11550 600   ) N ;
+- poly_am5 WIRE_BLK + PLACED ( 11550 300   ) N ;
+- poly_am6 WIRE_BLK + PLACED ( 11550 0     ) N ;
+END COMPONENTS
+
+PINS 0 ;
+END PINS
+
+NETS 729 ;
+- net0
+( Q0 ne ) ( poly_aaa IN ) ;
+- net1
+( poly_aaa OUT ) ( poly_aab IN ) ;
+- net2
+( poly_aaa OUT ) ( poly_aae IN ) ;
+- net3
+( poly_aab OUT ) ( poly_aac IN ) ;
+- net4
+( poly_aab OUT ) ( poly_aaf IN ) ;
+- net5
+( poly_aac OUT ) ( poly_aad IN ) ;
+- net6
+( poly_aac OUT ) ( poly_aag IN ) ;
+- net7
+( poly_aad OUT ) ( poly_aah IN ) ;
+- net8
+( poly_aae OUT ) ( poly_aai IN ) ;
+- net9
+( poly_aaf OUT ) ( poly_aae IN ) ;
+- net10
+( poly_aaf OUT ) ( poly_aaj IN ) ;
+- net11
+( poly_aag OUT ) ( poly_aaf IN ) ;
+- net12
+( poly_aag OUT ) ( poly_aak IN ) ;
+- net13
+( poly_aah OUT ) ( poly_aag IN ) ;
+- net14
+( poly_aah OUT ) ( poly_aal IN ) ;
+- net15
+( poly_aai OUT ) ( poly_aaj IN ) ;
+- net16
+( poly_aaj OUT ) ( poly_aak IN ) ;
+- net17
+( poly_aak OUT ) ( poly_aal IN ) ;
+- net18
+( poly_aal OUT ) ( Q1 nw ) ;
+- net19
+( Q0 sw ) ( poly_aam IN ) ;
+- net20
+( poly_aam OUT ) ( poly_aan IN ) ;
+- net21
+( poly_aam OUT ) ( poly_aaq IN ) ;
+- net22
+( poly_aan OUT ) ( poly_aao IN ) ;
+- net23
+( poly_aan OUT ) ( poly_aar IN ) ;
+- net24
+( poly_aao OUT ) ( poly_aap IN ) ;
+- net25
+( poly_aao OUT ) ( poly_aas IN ) ;
+- net26
+( poly_aap OUT ) ( poly_aat IN ) ;
+- net27
+( poly_aaq OUT ) ( poly_aau IN ) ;
+- net28
+( poly_aar OUT ) ( poly_aaq IN ) ;
+- net29
+( poly_aar OUT ) ( poly_aav IN ) ;
+- net30
+( poly_aas OUT ) ( poly_aar IN ) ;
+- net31
+( poly_aas OUT ) ( poly_aaw IN ) ;
+- net32
+( poly_aat OUT ) ( poly_aas IN ) ;
+- net33
+( poly_aat OUT ) ( poly_aax IN ) ;
+- net34
+( poly_aau OUT ) ( poly_aav IN ) ;
+- net35
+( poly_aav OUT ) ( poly_aaw IN ) ;
+- net36
+( poly_aaw OUT ) ( poly_aax IN ) ;
+- net37
+( poly_aax OUT ) ( Q5 nw ) ;
+- net38
+( Q1 ne ) ( poly_aay IN ) ;
+- net39
+( poly_aay OUT ) ( poly_aaz IN ) ;
+- net40
+( poly_aay OUT ) ( poly_aa2 IN ) ;
+- net41
+( poly_aaz OUT ) ( poly_aa0 IN ) ;
+- net42
+( poly_aaz OUT ) ( poly_aa3 IN ) ;
+- net43
+( poly_aa0 OUT ) ( poly_aa1 IN ) ;
+- net44
+( poly_aa0 OUT ) ( poly_aa4 IN ) ;
+- net45
+( poly_aa1 OUT ) ( poly_aa5 IN ) ;
+- net46
+( poly_aa2 OUT ) ( poly_aa6 IN ) ;
+- net47
+( poly_aa3 OUT ) ( poly_aa2 IN ) ;
+- net48
+( poly_aa3 OUT ) ( poly_aa7 IN ) ;
+- net49
+( poly_aa4 OUT ) ( poly_aa3 IN ) ;
+- net50
+( poly_aa4 OUT ) ( poly_aa8 IN ) ;
+- net51
+( poly_aa5 OUT ) ( poly_aa4 IN ) ;
+- net52
+( poly_aa5 OUT ) ( poly_aa9 IN ) ;
+- net53
+( poly_aa6 OUT ) ( poly_aa7 IN ) ;
+- net54
+( poly_aa7 OUT ) ( poly_aa8 IN ) ;
+- net55
+( poly_aa8 OUT ) ( poly_aa9 IN ) ;
+- net56
+( poly_aa9 OUT ) ( Q2 nw ) ;
+- net57
+( Q1 sw ) ( poly_aba IN ) ;
+- net58
+( poly_aba OUT ) ( poly_abb IN ) ;
+- net59
+( poly_aba OUT ) ( poly_abe IN ) ;
+- net60
+( poly_abb OUT ) ( poly_abc IN ) ;
+- net61
+( poly_abb OUT ) ( poly_abf IN ) ;
+- net62
+( poly_abc OUT ) ( poly_abg IN ) ;
+- net63
+( poly_abd OUT ) ( poly_abh IN ) ;
+- net64
+( poly_abe OUT ) ( poly_abd IN ) ;
+- net65
+( poly_abe OUT ) ( poly_abi IN ) ;
+- net66
+( poly_abf OUT ) ( poly_abe IN ) ;
+- net67
+( poly_abf OUT ) ( poly_abj IN ) ;
+- net68
+( poly_abg OUT ) ( poly_abf IN ) ;
+- net69
+( poly_abg OUT ) ( poly_abk IN ) ;
+- net70
+( poly_abh OUT ) ( poly_abi IN ) ;
+- net71
+( poly_abi OUT ) ( poly_abj IN ) ;
+- net72
+( poly_abj OUT ) ( poly_abk IN ) ;
+- net73
+( poly_abk OUT ) ( Q6 nw ) ;
+- net74
+( Q2 ne ) ( poly_abl IN ) ;
+- net75
+( poly_abl OUT ) ( poly_abm IN ) ;
+- net76
+( poly_abl OUT ) ( poly_abp IN ) ;
+- net77
+( poly_abm OUT ) ( poly_abn IN ) ;
+- net78
+( poly_abm OUT ) ( poly_abq IN ) ;
+- net79
+( poly_abn OUT ) ( poly_abr IN ) ;
+- net80
+( poly_abo OUT ) ( poly_abs IN ) ;
+- net81
+( poly_abp OUT ) ( poly_abo IN ) ;
+- net82
+( poly_abp OUT ) ( poly_abt IN ) ;
+- net83
+( poly_abq OUT ) ( poly_abp IN ) ;
+- net84
+( poly_abq OUT ) ( poly_abu IN ) ;
+- net85
+( poly_abr OUT ) ( poly_abq IN ) ;
+- net86
+( poly_abr OUT ) ( poly_abv IN ) ;
+- net87
+( poly_abs OUT ) ( poly_abt IN ) ;
+- net88
+( poly_abt OUT ) ( poly_abu IN ) ;
+- net89
+( poly_abu OUT ) ( poly_abv IN ) ;
+- net90
+( poly_abv OUT ) ( Q3 nw ) ;
+- net91
+( Q2 sw ) ( poly_abw IN ) ;
+- net92
+( poly_abw OUT ) ( poly_abx IN ) ;
+- net93
+( poly_abw OUT ) ( poly_ab0 IN ) ;
+- net94
+( poly_abx OUT ) ( poly_aby IN ) ;
+- net95
+( poly_abx OUT ) ( poly_ab1 IN ) ;
+- net96
+( poly_aby OUT ) ( poly_ab2 IN ) ;
+- net97
+( poly_abz OUT ) ( poly_ab3 IN ) ;
+- net98
+( poly_ab0 OUT ) ( poly_abz IN ) ;
+- net99
+( poly_ab0 OUT ) ( poly_ab4 IN ) ;
+- net100
+( poly_ab1 OUT ) ( poly_ab0 IN ) ;
+- net101
+( poly_ab1 OUT ) ( poly_ab5 IN ) ;
+- net102
+( poly_ab2 OUT ) ( poly_ab1 IN ) ;
+- net103
+( poly_ab2 OUT ) ( poly_ab6 IN ) ;
+- net104
+( poly_ab3 OUT ) ( poly_ab4 IN ) ;
+- net105
+( poly_ab4 OUT ) ( poly_ab5 IN ) ;
+- net106
+( poly_ab5 OUT ) ( poly_ab6 IN ) ;
+- net107
+( poly_ab6 OUT ) ( Q7 nw ) ;
+- net108
+( Q3 ne ) ( poly_ab7 IN ) ;
+- net109
+( poly_ab7 OUT ) ( poly_ab8 IN ) ;
+- net110
+( poly_ab7 OUT ) ( poly_acb IN ) ;
+- net111
+( poly_ab8 OUT ) ( poly_ab9 IN ) ;
+- net112
+( poly_ab8 OUT ) ( poly_acc IN ) ;
+- net113
+( poly_ab9 OUT ) ( poly_aca IN ) ;
+- net114
+( poly_ab9 OUT ) ( poly_acd IN ) ;
+- net115
+( poly_aca OUT ) ( poly_ace IN ) ;
+- net116
+( poly_acb OUT ) ( poly_acf IN ) ;
+- net117
+( poly_acc OUT ) ( poly_acb IN ) ;
+- net118
+( poly_acc OUT ) ( poly_acg IN ) ;
+- net119
+( poly_acd OUT ) ( poly_acc IN ) ;
+- net120
+( poly_acd OUT ) ( poly_ach IN ) ;
+- net121
+( poly_ace OUT ) ( poly_acd IN ) ;
+- net122
+( poly_ace OUT ) ( poly_aci IN ) ;
+- net123
+( poly_acf OUT ) ( poly_acg IN ) ;
+- net124
+( poly_acg OUT ) ( poly_ach IN ) ;
+- net125
+( poly_ach OUT ) ( poly_aci IN ) ;
+- net126
+( poly_aci OUT ) ( Q4 nw ) ;
+- net127
+( Q3 sw ) ( poly_acj IN ) ;
+- net128
+( poly_acj OUT ) ( poly_ack IN ) ;
+- net129
+( poly_acj OUT ) ( poly_acn IN ) ;
+- net130
+( poly_ack OUT ) ( poly_aco IN ) ;
+- net131
+( poly_acl OUT ) ( poly_acp IN ) ;
+- net132
+( poly_acm OUT ) ( poly_acl IN ) ;
+- net133
+( poly_acm OUT ) ( poly_acq IN ) ;
+- net134
+( poly_acn OUT ) ( poly_acm IN ) ;
+- net135
+( poly_acn OUT ) ( poly_acr IN ) ;
+- net136
+( poly_aco OUT ) ( poly_acn IN ) ;
+- net137
+( poly_aco OUT ) ( poly_acs IN ) ;
+- net138
+( poly_acp OUT ) ( poly_acq IN ) ;
+- net139
+( poly_acq OUT ) ( poly_acr IN ) ;
+- net140
+( poly_acq OUT ) ( poly_act IN ) ;
+- net141
+( poly_acr OUT ) ( poly_acs IN ) ;
+- net142
+( poly_acr OUT ) ( poly_acu IN ) ;
+- net143
+( poly_acs OUT ) ( poly_acv IN ) ;
+- net144
+( poly_acu OUT ) ( poly_act IN ) ;
+- net145
+( poly_acv OUT ) ( poly_acu IN ) ;
+- net146
+( poly_act OUT ) ( Q8 nw ) ;
+- net147
+( Q4 sw ) ( poly_acw IN ) ;
+- net148
+( poly_acw OUT ) ( poly_acx IN ) ;
+- net149
+( poly_acw OUT ) ( poly_ac0 IN ) ;
+- net150
+( poly_acx OUT ) ( poly_acy IN ) ;
+- net151
+( poly_acx OUT ) ( poly_ac1 IN ) ;
+- net152
+( poly_acy OUT ) ( poly_acz IN ) ;
+- net153
+( poly_acy OUT ) ( poly_ac2 IN ) ;
+- net154
+( poly_acz OUT ) ( poly_ac3 IN ) ;
+- net155
+( poly_ac0 OUT ) ( poly_ac4 IN ) ;
+- net156
+( poly_ac1 OUT ) ( poly_ac0 IN ) ;
+- net157
+( poly_ac1 OUT ) ( poly_ac5 IN ) ;
+- net158
+( poly_ac2 OUT ) ( poly_ac1 IN ) ;
+- net159
+( poly_ac2 OUT ) ( poly_ac6 IN ) ;
+- net160
+( poly_ac3 OUT ) ( poly_ac2 IN ) ;
+- net161
+( poly_ac3 OUT ) ( poly_ac7 IN ) ;
+- net162
+( poly_ac4 OUT ) ( poly_ac5 IN ) ;
+- net163
+( poly_ac5 OUT ) ( poly_ac6 IN ) ;
+- net164
+( poly_ac6 OUT ) ( poly_ac7 IN ) ;
+- net165
+( poly_ac7 OUT ) ( Q9 nw ) ;
+- net166
+( Q5 ne ) ( poly_ac8 IN ) ;
+- net167
+( poly_ac8 OUT ) ( poly_ac9 IN ) ;
+- net168
+( poly_ac8 OUT ) ( poly_adc IN ) ;
+- net169
+( poly_ac9 OUT ) ( poly_ada IN ) ;
+- net170
+( poly_ac9 OUT ) ( poly_add IN ) ;
+- net171
+( poly_ada OUT ) ( poly_ade IN ) ;
+- net172
+( poly_adb OUT ) ( poly_adf IN ) ;
+- net173
+( poly_adc OUT ) ( poly_adb IN ) ;
+- net174
+( poly_adc OUT ) ( poly_adg IN ) ;
+- net175
+( poly_add OUT ) ( poly_adc IN ) ;
+- net176
+( poly_add OUT ) ( poly_adh IN ) ;
+- net177
+( poly_ade OUT ) ( poly_add IN ) ;
+- net178
+( poly_ade OUT ) ( poly_adi IN ) ;
+- net179
+( poly_adf OUT ) ( poly_adg IN ) ;
+- net180
+( poly_adg OUT ) ( poly_adh IN ) ;
+- net181
+( poly_adh OUT ) ( poly_adi IN ) ;
+- net182
+( poly_adi OUT ) ( Q6 sw ) ;
+- net183
+( Q5 sw ) ( poly_adj IN ) ;
+- net184
+( poly_adj OUT ) ( poly_adk IN ) ;
+- net185
+( poly_adj OUT ) ( poly_adn IN ) ;
+- net186
+( poly_adk OUT ) ( poly_adl IN ) ;
+- net187
+( poly_adk OUT ) ( poly_ado IN ) ;
+- net188
+( poly_adl OUT ) ( poly_adp IN ) ;
+- net189
+( poly_adm OUT ) ( poly_adq IN ) ;
+- net190
+( poly_adn OUT ) ( poly_adm IN ) ;
+- net191
+( poly_adn OUT ) ( poly_adr IN ) ;
+- net192
+( poly_ado OUT ) ( poly_adn IN ) ;
+- net193
+( poly_ado OUT ) ( poly_ads IN ) ;
+- net194
+( poly_adp OUT ) ( poly_ado IN ) ;
+- net195
+( poly_adp OUT ) ( poly_adt IN ) ;
+- net196
+( poly_adq OUT ) ( poly_adr IN ) ;
+- net197
+( poly_adr OUT ) ( poly_ads IN ) ;
+- net198
+( poly_ads OUT ) ( poly_adt IN ) ;
+- net199
+( poly_adt OUT ) ( Q10 nw ) ;
+- net200
+( Q6 ne ) ( poly_adu IN ) ;
+- net201
+( poly_adu OUT ) ( poly_adv IN ) ;
+- net202
+( poly_adu OUT ) ( poly_ady IN ) ;
+- net203
+( poly_adv OUT ) ( poly_adw IN ) ;
+- net204
+( poly_adv OUT ) ( poly_adz IN ) ;
+- net205
+( poly_adw OUT ) ( poly_ad0 IN ) ;
+- net206
+( poly_adx OUT ) ( poly_ad1 IN ) ;
+- net207
+( poly_ady OUT ) ( poly_adx IN ) ;
+- net208
+( poly_ady OUT ) ( poly_ad2 IN ) ;
+- net209
+( poly_adz OUT ) ( poly_ady IN ) ;
+- net210
+( poly_adz OUT ) ( poly_ad3 IN ) ;
+- net211
+( poly_ad0 OUT ) ( poly_adz IN ) ;
+- net212
+( poly_ad0 OUT ) ( poly_ad4 IN ) ;
+- net213
+( poly_ad1 OUT ) ( poly_ad2 IN ) ;
+- net214
+( poly_ad2 OUT ) ( poly_ad3 IN ) ;
+- net215
+( poly_ad3 OUT ) ( poly_ad4 IN ) ;
+- net216
+( poly_ad4 OUT ) ( Q7 sw ) ;
+- net217
+( Q6 se ) ( poly_ad5 IN ) ;
+- net218
+( poly_ad5 OUT ) ( poly_ad6 IN ) ;
+- net219
+( poly_ad5 OUT ) ( poly_ad9 IN ) ;
+- net220
+( poly_ad6 OUT ) ( poly_ad7 IN ) ;
+- net221
+( poly_ad6 OUT ) ( poly_aea IN ) ;
+- net222
+( poly_ad7 OUT ) ( poly_aeb IN ) ;
+- net223
+( poly_ad8 OUT ) ( poly_aec IN ) ;
+- net224
+( poly_ad9 OUT ) ( poly_ad8 IN ) ;
+- net225
+( poly_ad9 OUT ) ( poly_aed IN ) ;
+- net226
+( poly_aea OUT ) ( poly_ad9 IN ) ;
+- net227
+( poly_aea OUT ) ( poly_aee IN ) ;
+- net228
+( poly_aeb OUT ) ( poly_aea IN ) ;
+- net229
+( poly_aeb OUT ) ( poly_aef IN ) ;
+- net230
+( poly_aec OUT ) ( poly_aed IN ) ;
+- net231
+( poly_aed OUT ) ( poly_aee IN ) ;
+- net232
+( poly_aee OUT ) ( poly_aef IN ) ;
+- net233
+( poly_aef OUT ) ( Q11 nw ) ;
+- net234
+( Q7 ne ) ( poly_aeg IN ) ;
+- net235
+( poly_aeg OUT ) ( poly_aeh IN ) ;
+- net236
+( poly_aeg OUT ) ( poly_aek IN ) ;
+- net237
+( poly_aeh OUT ) ( poly_aei IN ) ;
+- net238
+( poly_aeh OUT ) ( poly_ael IN ) ;
+- net239
+( poly_aei OUT ) ( poly_aem IN ) ;
+- net240
+( poly_aej OUT ) ( poly_aen IN ) ;
+- net241
+( poly_aek OUT ) ( poly_aej IN ) ;
+- net242
+( poly_aek OUT ) ( poly_aeo IN ) ;
+- net243
+( poly_ael OUT ) ( poly_aek IN ) ;
+- net244
+( poly_ael OUT ) ( poly_aep IN ) ;
+- net245
+( poly_aem OUT ) ( poly_ael IN ) ;
+- net246
+( poly_aem OUT ) ( poly_aeq IN ) ;
+- net247
+( poly_aen OUT ) ( poly_aeo IN ) ;
+- net248
+( poly_aeo OUT ) ( poly_aep IN ) ;
+- net249
+( poly_aep OUT ) ( poly_aeq IN ) ;
+- net250
+( poly_aeq OUT ) ( Q8 sw ) ;
+- net251
+( Q7 se ) ( poly_aer IN ) ;
+- net252
+( poly_aer OUT ) ( poly_aes IN ) ;
+- net253
+( poly_aer OUT ) ( poly_aev IN ) ;
+- net254
+( poly_aes OUT ) ( poly_aet IN ) ;
+- net255
+( poly_aes OUT ) ( poly_aew IN ) ;
+- net256
+( poly_aet OUT ) ( poly_aeu IN ) ;
+- net257
+( poly_aet OUT ) ( poly_aex IN ) ;
+- net258
+( poly_aeu OUT ) ( poly_aey IN ) ;
+- net259
+( poly_aev OUT ) ( poly_aez IN ) ;
+- net260
+( poly_aew OUT ) ( poly_aev IN ) ;
+- net261
+( poly_aew OUT ) ( poly_ae0 IN ) ;
+- net262
+( poly_aex OUT ) ( poly_aew IN ) ;
+- net263
+( poly_aex OUT ) ( poly_ae1 IN ) ;
+- net264
+( poly_aey OUT ) ( poly_aex IN ) ;
+- net265
+( poly_aey OUT ) ( poly_ae2 IN ) ;
+- net266
+( poly_aez OUT ) ( poly_ae0 IN ) ;
+- net267
+( poly_ae0 OUT ) ( poly_ae1 IN ) ;
+- net268
+( poly_ae1 OUT ) ( poly_ae2 IN ) ;
+- net269
+( poly_ae2 OUT ) ( Q12 nw ) ;
+- net270
+( Q8 ne ) ( poly_ae3 IN ) ;
+- net271
+( poly_ae3 OUT ) ( poly_ae4 IN ) ;
+- net272
+( poly_ae3 OUT ) ( poly_ae7 IN ) ;
+- net273
+( poly_ae4 OUT ) ( poly_ae5 IN ) ;
+- net274
+( poly_ae4 OUT ) ( poly_ae8 IN ) ;
+- net275
+( poly_ae5 OUT ) ( poly_ae6 IN ) ;
+- net276
+( poly_ae5 OUT ) ( poly_ae9 IN ) ;
+- net277
+( poly_ae6 OUT ) ( poly_afa IN ) ;
+- net278
+( poly_ae7 OUT ) ( poly_afb IN ) ;
+- net279
+( poly_ae8 OUT ) ( poly_ae7 IN ) ;
+- net280
+( poly_ae8 OUT ) ( poly_afc IN ) ;
+- net281
+( poly_ae9 OUT ) ( poly_ae8 IN ) ;
+- net282
+( poly_ae9 OUT ) ( poly_afd IN ) ;
+- net283
+( poly_afa OUT ) ( poly_ae9 IN ) ;
+- net284
+( poly_afa OUT ) ( poly_afe IN ) ;
+- net285
+( poly_afb OUT ) ( poly_afc IN ) ;
+- net286
+( poly_afc OUT ) ( poly_afd IN ) ;
+- net287
+( poly_afd OUT ) ( poly_afe IN ) ;
+- net288
+( poly_afe OUT ) ( Q9 sw ) ;
+- net289
+( Q8 se ) ( poly_aff IN ) ;
+- net290
+( poly_aff OUT ) ( poly_afg IN ) ;
+- net291
+( poly_aff OUT ) ( poly_afj IN ) ;
+- net292
+( poly_afg OUT ) ( poly_afh IN ) ;
+- net293
+( poly_afg OUT ) ( poly_afk IN ) ;
+- net294
+( poly_afh OUT ) ( poly_afi IN ) ;
+- net295
+( poly_afh OUT ) ( poly_afl IN ) ;
+- net296
+( poly_afi OUT ) ( poly_afm IN ) ;
+- net297
+( poly_afj OUT ) ( poly_afn IN ) ;
+- net298
+( poly_afk OUT ) ( poly_afj IN ) ;
+- net299
+( poly_afk OUT ) ( poly_afo IN ) ;
+- net300
+( poly_afl OUT ) ( poly_afk IN ) ;
+- net301
+( poly_afl OUT ) ( poly_afp IN ) ;
+- net302
+( poly_afm OUT ) ( poly_afl IN ) ;
+- net303
+( poly_afm OUT ) ( poly_afq IN ) ;
+- net304
+( poly_afn OUT ) ( poly_afo IN ) ;
+- net305
+( poly_afo OUT ) ( poly_afp IN ) ;
+- net306
+( poly_afp OUT ) ( poly_afq IN ) ;
+- net307
+( poly_afq OUT ) ( Q13 nw ) ;
+- net308
+( Q9 se ) ( poly_afr IN ) ;
+- net309
+( poly_afr OUT ) ( poly_afs IN ) ;
+- net310
+( poly_afr OUT ) ( poly_afv IN ) ;
+- net311
+( poly_afs OUT ) ( poly_aft IN ) ;
+- net312
+( poly_afs OUT ) ( poly_afw IN ) ;
+- net313
+( poly_aft OUT ) ( poly_afx IN ) ;
+- net314
+( poly_afu OUT ) ( poly_afy IN ) ;
+- net315
+( poly_afv OUT ) ( poly_afu IN ) ;
+- net316
+( poly_afv OUT ) ( poly_afz IN ) ;
+- net317
+( poly_afw OUT ) ( poly_afv IN ) ;
+- net318
+( poly_afw OUT ) ( poly_af0 IN ) ;
+- net319
+( poly_afx OUT ) ( poly_afw IN ) ;
+- net320
+( poly_afx OUT ) ( poly_af1 IN ) ;
+- net321
+( poly_afy OUT ) ( poly_afz IN ) ;
+- net322
+( poly_afz OUT ) ( poly_af0 IN ) ;
+- net323
+( poly_af0 OUT ) ( poly_af1 IN ) ;
+- net324
+( poly_af1 OUT ) ( Q14 nw ) ;
+- net325
+( Q10 ne ) ( poly_af2 IN ) ;
+- net326
+( poly_af2 OUT ) ( poly_af3 IN ) ;
+- net327
+( poly_af2 OUT ) ( poly_af6 IN ) ;
+- net328
+( poly_af3 OUT ) ( poly_af4 IN ) ;
+- net329
+( poly_af3 OUT ) ( poly_af7 IN ) ;
+- net330
+( poly_af4 OUT ) ( poly_af5 IN ) ;
+- net331
+( poly_af4 OUT ) ( poly_af8 IN ) ;
+- net332
+( poly_af5 OUT ) ( poly_af9 IN ) ;
+- net333
+( poly_af6 OUT ) ( poly_aga IN ) ;
+- net334
+( poly_af7 OUT ) ( poly_af6 IN ) ;
+- net335
+( poly_af7 OUT ) ( poly_agb IN ) ;
+- net336
+( poly_af8 OUT ) ( poly_af7 IN ) ;
+- net337
+( poly_af8 OUT ) ( poly_agc IN ) ;
+- net338
+( poly_af9 OUT ) ( poly_af8 IN ) ;
+- net339
+( poly_af9 OUT ) ( poly_agd IN ) ;
+- net340
+( poly_aga OUT ) ( poly_agb IN ) ;
+- net341
+( poly_agb OUT ) ( poly_agc IN ) ;
+- net342
+( poly_agc OUT ) ( poly_agd IN ) ;
+- net343
+( poly_agd OUT ) ( Q11 sw ) ;
+- net344
+( Q10 sw ) ( poly_age IN ) ;
+- net345
+( poly_age OUT ) ( poly_agf IN ) ;
+- net346
+( poly_age OUT ) ( poly_agi IN ) ;
+- net347
+( poly_agf OUT ) ( poly_agg IN ) ;
+- net348
+( poly_agf OUT ) ( poly_agj IN ) ;
+- net349
+( poly_agg OUT ) ( poly_agh IN ) ;
+- net350
+( poly_agg OUT ) ( poly_agk IN ) ;
+- net351
+( poly_agh OUT ) ( poly_agl IN ) ;
+- net352
+( poly_agi OUT ) ( poly_agm IN ) ;
+- net353
+( poly_agj OUT ) ( poly_agi IN ) ;
+- net354
+( poly_agj OUT ) ( poly_agn IN ) ;
+- net355
+( poly_agk OUT ) ( poly_agj IN ) ;
+- net356
+( poly_agk OUT ) ( poly_ago IN ) ;
+- net357
+( poly_agl OUT ) ( poly_agk IN ) ;
+- net358
+( poly_agl OUT ) ( poly_agp IN ) ;
+- net359
+( poly_agm OUT ) ( poly_agn IN ) ;
+- net360
+( poly_agn OUT ) ( poly_ago IN ) ;
+- net361
+( poly_ago OUT ) ( poly_agp IN ) ;
+- net362
+( poly_agp OUT ) ( Q15 nw ) ;
+- net363
+( Q11 ne ) ( poly_agq IN ) ;
+- net364
+( poly_agq OUT ) ( poly_agr IN ) ;
+- net365
+( poly_agq OUT ) ( poly_agu IN ) ;
+- net366
+( poly_agr OUT ) ( poly_ags IN ) ;
+- net367
+( poly_agr OUT ) ( poly_agv IN ) ;
+- net368
+( poly_ags OUT ) ( poly_agw IN ) ;
+- net369
+( poly_agt OUT ) ( poly_agx IN ) ;
+- net370
+( poly_agu OUT ) ( poly_agt IN ) ;
+- net371
+( poly_agu OUT ) ( poly_agy IN ) ;
+- net372
+( poly_agv OUT ) ( poly_agu IN ) ;
+- net373
+( poly_agv OUT ) ( poly_agz IN ) ;
+- net374
+( poly_agw OUT ) ( poly_agv IN ) ;
+- net375
+( poly_agw OUT ) ( poly_ag0 IN ) ;
+- net376
+( poly_agx OUT ) ( poly_agy IN ) ;
+- net377
+( poly_agy OUT ) ( poly_agz IN ) ;
+- net378
+( poly_agz OUT ) ( poly_ag0 IN ) ;
+- net379
+( poly_ag0 OUT ) ( Q12 sw ) ;
+- net380
+( Q11 se ) ( poly_ag1 IN ) ;
+- net381
+( poly_ag1 OUT ) ( poly_ag2 IN ) ;
+- net382
+( poly_ag1 OUT ) ( poly_ag5 IN ) ;
+- net383
+( poly_ag2 OUT ) ( poly_ag3 IN ) ;
+- net384
+( poly_ag2 OUT ) ( poly_ag6 IN ) ;
+- net385
+( poly_ag3 OUT ) ( poly_ag4 IN ) ;
+- net386
+( poly_ag3 OUT ) ( poly_ag7 IN ) ;
+- net387
+( poly_ag4 OUT ) ( poly_ag8 IN ) ;
+- net388
+( poly_ag5 OUT ) ( poly_ag9 IN ) ;
+- net389
+( poly_ag6 OUT ) ( poly_ag5 IN ) ;
+- net390
+( poly_ag6 OUT ) ( poly_aha IN ) ;
+- net391
+( poly_ag7 OUT ) ( poly_ag6 IN ) ;
+- net392
+( poly_ag7 OUT ) ( poly_ahb IN ) ;
+- net393
+( poly_ag8 OUT ) ( poly_ag7 IN ) ;
+- net394
+( poly_ag8 OUT ) ( poly_ahc IN ) ;
+- net395
+( poly_ag9 OUT ) ( poly_aha IN ) ;
+- net396
+( poly_aha OUT ) ( poly_ahb IN ) ;
+- net397
+( poly_ahb OUT ) ( poly_ahc IN ) ;
+- net398
+( poly_ahc OUT ) ( Q16 nw ) ;
+- net399
+( Q12 ne ) ( poly_ahd IN ) ;
+- net400
+( poly_ahd OUT ) ( poly_ahe IN ) ;
+- net401
+( poly_ahd OUT ) ( poly_ahh IN ) ;
+- net402
+( poly_ahe OUT ) ( poly_ahf IN ) ;
+- net403
+( poly_ahe OUT ) ( poly_ahi IN ) ;
+- net404
+( poly_ahf OUT ) ( poly_ahj IN ) ;
+- net405
+( poly_ahg OUT ) ( poly_ahk IN ) ;
+- net406
+( poly_ahh OUT ) ( poly_ahg IN ) ;
+- net407
+( poly_ahh OUT ) ( poly_ahl IN ) ;
+- net408
+( poly_ahi OUT ) ( poly_ahh IN ) ;
+- net409
+( poly_ahi OUT ) ( poly_ahm IN ) ;
+- net410
+( poly_ahj OUT ) ( poly_ahi IN ) ;
+- net411
+( poly_ahj OUT ) ( poly_ahn IN ) ;
+- net412
+( poly_ahk OUT ) ( poly_ahl IN ) ;
+- net413
+( poly_ahl OUT ) ( poly_ahm IN ) ;
+- net414
+( poly_ahm OUT ) ( poly_ahn IN ) ;
+- net415
+( poly_ahn OUT ) ( Q13 sw ) ;
+- net416
+( Q12 se ) ( poly_aho IN ) ;
+- net417
+( poly_aho OUT ) ( poly_ahp IN ) ;
+- net418
+( poly_aho OUT ) ( poly_ahs IN ) ;
+- net419
+( poly_ahp OUT ) ( poly_ahq IN ) ;
+- net420
+( poly_ahp OUT ) ( poly_aht IN ) ;
+- net421
+( poly_ahq OUT ) ( poly_ahu IN ) ;
+- net422
+( poly_ahr OUT ) ( poly_ahv IN ) ;
+- net423
+( poly_ahs OUT ) ( poly_ahr IN ) ;
+- net424
+( poly_ahs OUT ) ( poly_ahw IN ) ;
+- net425
+( poly_aht OUT ) ( poly_ahs IN ) ;
+- net426
+( poly_aht OUT ) ( poly_ahx IN ) ;
+- net427
+( poly_ahu OUT ) ( poly_aht IN ) ;
+- net428
+( poly_ahu OUT ) ( poly_ahy IN ) ;
+- net429
+( poly_ahv OUT ) ( poly_ahw IN ) ;
+- net430
+( poly_ahw OUT ) ( poly_ahx IN ) ;
+- net431
+( poly_ahx OUT ) ( poly_ahy IN ) ;
+- net432
+( poly_ahy OUT ) ( Q17 nw ) ;
+- net433
+( Q13 ne ) ( poly_ahz IN ) ;
+- net434
+( poly_ahz OUT ) ( poly_ah0 IN ) ;
+- net435
+( poly_ahz OUT ) ( poly_ah3 IN ) ;
+- net436
+( poly_ah0 OUT ) ( poly_ah1 IN ) ;
+- net437
+( poly_ah0 OUT ) ( poly_ah4 IN ) ;
+- net438
+( poly_ah1 OUT ) ( poly_ah2 IN ) ;
+- net439
+( poly_ah1 OUT ) ( poly_ah5 IN ) ;
+- net440
+( poly_ah2 OUT ) ( poly_ah6 IN ) ;
+- net441
+( poly_ah3 OUT ) ( poly_ah7 IN ) ;
+- net442
+( poly_ah4 OUT ) ( poly_ah3 IN ) ;
+- net443
+( poly_ah4 OUT ) ( poly_ah8 IN ) ;
+- net444
+( poly_ah5 OUT ) ( poly_ah4 IN ) ;
+- net445
+( poly_ah5 OUT ) ( poly_ah9 IN ) ;
+- net446
+( poly_ah6 OUT ) ( poly_ah5 IN ) ;
+- net447
+( poly_ah6 OUT ) ( poly_aia IN ) ;
+- net448
+( poly_ah7 OUT ) ( poly_ah8 IN ) ;
+- net449
+( poly_ah8 OUT ) ( poly_ah9 IN ) ;
+- net450
+( poly_ah9 OUT ) ( poly_aia IN ) ;
+- net451
+( poly_aia OUT ) ( Q14 sw ) ;
+- net452
+( Q13 se ) ( poly_aib IN ) ;
+- net453
+( poly_aib OUT ) ( poly_aic IN ) ;
+- net454
+( poly_aib OUT ) ( poly_aif IN ) ;
+- net455
+( poly_aic OUT ) ( poly_aid IN ) ;
+- net456
+( poly_aic OUT ) ( poly_aig IN ) ;
+- net457
+( poly_aid OUT ) ( poly_aih IN ) ;
+- net458
+( poly_aie OUT ) ( poly_aii IN ) ;
+- net459
+( poly_aif OUT ) ( poly_aie IN ) ;
+- net460
+( poly_aif OUT ) ( poly_aij IN ) ;
+- net461
+( poly_aig OUT ) ( poly_aif IN ) ;
+- net462
+( poly_aig OUT ) ( poly_aik IN ) ;
+- net463
+( poly_aih OUT ) ( poly_aig IN ) ;
+- net464
+( poly_aih OUT ) ( poly_ail IN ) ;
+- net465
+( poly_aii OUT ) ( poly_aij IN ) ;
+- net466
+( poly_aij OUT ) ( poly_aik IN ) ;
+- net467
+( poly_aik OUT ) ( poly_ail IN ) ;
+- net468
+( poly_ail OUT ) ( Q18 nw ) ;
+- net469
+( Q14 se ) ( poly_aim IN ) ;
+- net470
+( poly_aim OUT ) ( poly_ain IN ) ;
+- net471
+( poly_aim OUT ) ( poly_aiq IN ) ;
+- net472
+( poly_ain OUT ) ( poly_aio IN ) ;
+- net473
+( poly_ain OUT ) ( poly_air IN ) ;
+- net474
+( poly_aio OUT ) ( poly_aip IN ) ;
+- net475
+( poly_aio OUT ) ( poly_ais IN ) ;
+- net476
+( poly_aip OUT ) ( poly_ait IN ) ;
+- net477
+( poly_aiq OUT ) ( poly_aiu IN ) ;
+- net478
+( poly_air OUT ) ( poly_aiq IN ) ;
+- net479
+( poly_air OUT ) ( poly_aiv IN ) ;
+- net480
+( poly_ais OUT ) ( poly_air IN ) ;
+- net481
+( poly_ais OUT ) ( poly_aiw IN ) ;
+- net482
+( poly_ait OUT ) ( poly_ais IN ) ;
+- net483
+( poly_ait OUT ) ( poly_aix IN ) ;
+- net484
+( poly_aiu OUT ) ( poly_aiv IN ) ;
+- net485
+( poly_aiv OUT ) ( poly_aiw IN ) ;
+- net486
+( poly_aiw OUT ) ( poly_aix IN ) ;
+- net487
+( poly_aix OUT ) ( Q19 nw ) ;
+- net488
+( Q15 ne ) ( poly_aiy IN ) ;
+- net489
+( poly_aiy OUT ) ( poly_aiz IN ) ;
+- net490
+( poly_aiy OUT ) ( poly_ai2 IN ) ;
+- net491
+( poly_aiz OUT ) ( poly_ai0 IN ) ;
+- net492
+( poly_aiz OUT ) ( poly_ai3 IN ) ;
+- net493
+( poly_ai0 OUT ) ( poly_ai1 IN ) ;
+- net494
+( poly_ai0 OUT ) ( poly_ai4 IN ) ;
+- net495
+( poly_ai1 OUT ) ( poly_ai5 IN ) ;
+- net496
+( poly_ai2 OUT ) ( poly_ai6 IN ) ;
+- net497
+( poly_ai3 OUT ) ( poly_ai2 IN ) ;
+- net498
+( poly_ai3 OUT ) ( poly_ai7 IN ) ;
+- net499
+( poly_ai4 OUT ) ( poly_ai3 IN ) ;
+- net500
+( poly_ai4 OUT ) ( poly_ai8 IN ) ;
+- net501
+( poly_ai5 OUT ) ( poly_ai4 IN ) ;
+- net502
+( poly_ai5 OUT ) ( poly_ai9 IN ) ;
+- net503
+( poly_ai6 OUT ) ( poly_ai7 IN ) ;
+- net504
+( poly_ai7 OUT ) ( poly_ai8 IN ) ;
+- net505
+( poly_ai8 OUT ) ( poly_ai9 IN ) ;
+- net506
+( poly_ai9 OUT ) ( Q16 sw ) ;
+- net507
+( Q15 sw ) ( poly_aja IN ) ;
+- net508
+( poly_aja OUT ) ( poly_ajb IN ) ;
+- net509
+( poly_aja OUT ) ( poly_aje IN ) ;
+- net510
+( poly_ajb OUT ) ( poly_ajc IN ) ;
+- net511
+( poly_ajb OUT ) ( poly_ajf IN ) ;
+- net512
+( poly_ajc OUT ) ( poly_ajg IN ) ;
+- net513
+( poly_ajd OUT ) ( poly_ajh IN ) ;
+- net514
+( poly_aje OUT ) ( poly_ajd IN ) ;
+- net515
+( poly_aje OUT ) ( poly_aji IN ) ;
+- net516
+( poly_ajf OUT ) ( poly_aje IN ) ;
+- net517
+( poly_ajf OUT ) ( poly_ajj IN ) ;
+- net518
+( poly_ajg OUT ) ( poly_ajf IN ) ;
+- net519
+( poly_ajg OUT ) ( poly_ajk IN ) ;
+- net520
+( poly_ajh OUT ) ( poly_aji IN ) ;
+- net521
+( poly_aji OUT ) ( poly_ajj IN ) ;
+- net522
+( poly_ajj OUT ) ( poly_ajk IN ) ;
+- net523
+( poly_ajk OUT ) ( Q20 nw ) ;
+- net524
+( Q16 ne ) ( poly_ajl IN ) ;
+- net525
+( poly_ajl OUT ) ( poly_ajm IN ) ;
+- net526
+( poly_ajl OUT ) ( poly_ajp IN ) ;
+- net527
+( poly_ajm OUT ) ( poly_ajn IN ) ;
+- net528
+( poly_ajm OUT ) ( poly_ajq IN ) ;
+- net529
+( poly_ajn OUT ) ( poly_ajo IN ) ;
+- net530
+( poly_ajn OUT ) ( poly_ajr IN ) ;
+- net531
+( poly_ajo OUT ) ( poly_ajs IN ) ;
+- net532
+( poly_ajp OUT ) ( poly_ajt IN ) ;
+- net533
+( poly_ajq OUT ) ( poly_ajp IN ) ;
+- net534
+( poly_ajq OUT ) ( poly_aju IN ) ;
+- net535
+( poly_ajr OUT ) ( poly_ajq IN ) ;
+- net536
+( poly_ajr OUT ) ( poly_ajv IN ) ;
+- net537
+( poly_ajs OUT ) ( poly_ajr IN ) ;
+- net538
+( poly_ajs OUT ) ( poly_ajw IN ) ;
+- net539
+( poly_ajt OUT ) ( poly_aju IN ) ;
+- net540
+( poly_aju OUT ) ( poly_ajv IN ) ;
+- net541
+( poly_ajv OUT ) ( poly_ajw IN ) ;
+- net542
+( poly_ajw OUT ) ( Q17 sw ) ;
+- net543
+( Q16 se ) ( poly_ajx IN ) ;
+- net544
+( poly_ajx OUT ) ( poly_ajy IN ) ;
+- net545
+( poly_ajx OUT ) ( poly_aj1 IN ) ;
+- net546
+( poly_ajy OUT ) ( poly_ajz IN ) ;
+- net547
+( poly_ajy OUT ) ( poly_aj2 IN ) ;
+- net548
+( poly_ajz OUT ) ( poly_aj0 IN ) ;
+- net549
+( poly_ajz OUT ) ( poly_aj3 IN ) ;
+- net550
+( poly_aj0 OUT ) ( poly_aj4 IN ) ;
+- net551
+( poly_aj1 OUT ) ( poly_aj5 IN ) ;
+- net552
+( poly_aj2 OUT ) ( poly_aj1 IN ) ;
+- net553
+( poly_aj2 OUT ) ( poly_aj6 IN ) ;
+- net554
+( poly_aj3 OUT ) ( poly_aj2 IN ) ;
+- net555
+( poly_aj3 OUT ) ( poly_aj7 IN ) ;
+- net556
+( poly_aj4 OUT ) ( poly_aj3 IN ) ;
+- net557
+( poly_aj4 OUT ) ( poly_aj8 IN ) ;
+- net558
+( poly_aj5 OUT ) ( poly_aj6 IN ) ;
+- net559
+( poly_aj6 OUT ) ( poly_aj7 IN ) ;
+- net560
+( poly_aj7 OUT ) ( poly_aj8 IN ) ;
+- net561
+( poly_aj8 OUT ) ( Q21 nw ) ;
+- net562
+( Q17 ne ) ( poly_aj9 IN ) ;
+- net563
+( poly_aj9 OUT ) ( poly_aka IN ) ;
+- net564
+( poly_aj9 OUT ) ( poly_akd IN ) ;
+- net565
+( poly_aka OUT ) ( poly_akb IN ) ;
+- net566
+( poly_aka OUT ) ( poly_ake IN ) ;
+- net567
+( poly_akb OUT ) ( poly_akc IN ) ;
+- net568
+( poly_akb OUT ) ( poly_akf IN ) ;
+- net569
+( poly_akc OUT ) ( poly_akg IN ) ;
+- net570
+( poly_akd OUT ) ( poly_akh IN ) ;
+- net571
+( poly_ake OUT ) ( poly_akd IN ) ;
+- net572
+( poly_ake OUT ) ( poly_aki IN ) ;
+- net573
+( poly_akf OUT ) ( poly_ake IN ) ;
+- net574
+( poly_akf OUT ) ( poly_akj IN ) ;
+- net575
+( poly_akg OUT ) ( poly_akf IN ) ;
+- net576
+( poly_akg OUT ) ( poly_akk IN ) ;
+- net577
+( poly_akh OUT ) ( poly_aki IN ) ;
+- net578
+( poly_aki OUT ) ( poly_akj IN ) ;
+- net579
+( poly_akj OUT ) ( poly_akk IN ) ;
+- net580
+( poly_akk OUT ) ( Q18 sw ) ;
+- net581
+( Q17 se ) ( poly_akl IN ) ;
+- net582
+( poly_akl OUT ) ( poly_akm IN ) ;
+- net583
+( poly_akl OUT ) ( poly_akp IN ) ;
+- net584
+( poly_akm OUT ) ( poly_akn IN ) ;
+- net585
+( poly_akm OUT ) ( poly_akq IN ) ;
+- net586
+( poly_akn OUT ) ( poly_ako IN ) ;
+- net587
+( poly_akn OUT ) ( poly_akr IN ) ;
+- net588
+( poly_ako OUT ) ( poly_aks IN ) ;
+- net589
+( poly_akp OUT ) ( poly_akt IN ) ;
+- net590
+( poly_akq OUT ) ( poly_akp IN ) ;
+- net591
+( poly_akq OUT ) ( poly_aku IN ) ;
+- net592
+( poly_akr OUT ) ( poly_akq IN ) ;
+- net593
+( poly_akr OUT ) ( poly_akv IN ) ;
+- net594
+( poly_aks OUT ) ( poly_akr IN ) ;
+- net595
+( poly_aks OUT ) ( poly_akw IN ) ;
+- net596
+( poly_akt OUT ) ( poly_aku IN ) ;
+- net597
+( poly_aku OUT ) ( poly_akv IN ) ;
+- net598
+( poly_akv OUT ) ( poly_akw IN ) ;
+- net599
+( poly_akw OUT ) ( Q22 nw ) ;
+- net600
+( Q18 ne ) ( poly_akx IN ) ;
+- net601
+( poly_akx OUT ) ( poly_aky IN ) ;
+- net602
+( poly_akx OUT ) ( poly_ak1 IN ) ;
+- net603
+( poly_aky OUT ) ( poly_akz IN ) ;
+- net604
+( poly_aky OUT ) ( poly_ak2 IN ) ;
+- net605
+( poly_akz OUT ) ( poly_ak0 IN ) ;
+- net606
+( poly_akz OUT ) ( poly_ak3 IN ) ;
+- net607
+( poly_ak0 OUT ) ( poly_ak4 IN ) ;
+- net608
+( poly_ak1 OUT ) ( poly_ak5 IN ) ;
+- net609
+( poly_ak2 OUT ) ( poly_ak1 IN ) ;
+- net610
+( poly_ak2 OUT ) ( poly_ak6 IN ) ;
+- net611
+( poly_ak3 OUT ) ( poly_ak2 IN ) ;
+- net612
+( poly_ak3 OUT ) ( poly_ak7 IN ) ;
+- net613
+( poly_ak4 OUT ) ( poly_ak3 IN ) ;
+- net614
+( poly_ak4 OUT ) ( poly_ak8 IN ) ;
+- net615
+( poly_ak5 OUT ) ( poly_ak6 IN ) ;
+- net616
+( poly_ak6 OUT ) ( poly_ak7 IN ) ;
+- net617
+( poly_ak7 OUT ) ( poly_ak8 IN ) ;
+- net618
+( poly_ak8 OUT ) ( Q19 sw ) ;
+- net619
+( Q18 se ) ( poly_ak9 IN ) ;
+- net620
+( poly_ak9 OUT ) ( poly_ala IN ) ;
+- net621
+( poly_ak9 OUT ) ( poly_ald IN ) ;
+- net622
+( poly_ala OUT ) ( poly_alb IN ) ;
+- net623
+( poly_ala OUT ) ( poly_ale IN ) ;
+- net624
+( poly_alb OUT ) ( poly_alc IN ) ;
+- net625
+( poly_alb OUT ) ( poly_alf IN ) ;
+- net626
+( poly_alc OUT ) ( poly_alg IN ) ;
+- net627
+( poly_ald OUT ) ( poly_alh IN ) ;
+- net628
+( poly_ale OUT ) ( poly_ald IN ) ;
+- net629
+( poly_ale OUT ) ( poly_ali IN ) ;
+- net630
+( poly_alf OUT ) ( poly_ale IN ) ;
+- net631
+( poly_alf OUT ) ( poly_alj IN ) ;
+- net632
+( poly_alg OUT ) ( poly_alf IN ) ;
+- net633
+( poly_alg OUT ) ( poly_alk IN ) ;
+- net634
+( poly_alh OUT ) ( poly_ali IN ) ;
+- net635
+( poly_ali OUT ) ( poly_alj IN ) ;
+- net636
+( poly_alj OUT ) ( poly_alk IN ) ;
+- net637
+( poly_alk OUT ) ( Q23 nw ) ;
+- net638
+( Q19 se ) ( poly_all IN ) ;
+- net639
+( poly_all OUT ) ( poly_alm IN ) ;
+- net640
+( poly_all OUT ) ( poly_alp IN ) ;
+- net641
+( poly_alm OUT ) ( poly_aln IN ) ;
+- net642
+( poly_alm OUT ) ( poly_alq IN ) ;
+- net643
+( poly_aln OUT ) ( poly_alo IN ) ;
+- net644
+( poly_aln OUT ) ( poly_alr IN ) ;
+- net645
+( poly_alo OUT ) ( poly_als IN ) ;
+- net646
+( poly_alp OUT ) ( poly_alt IN ) ;
+- net647
+( poly_alq OUT ) ( poly_alp IN ) ;
+- net648
+( poly_alq OUT ) ( poly_alu IN ) ;
+- net649
+( poly_alr OUT ) ( poly_alq IN ) ;
+- net650
+( poly_alr OUT ) ( poly_alv IN ) ;
+- net651
+( poly_als OUT ) ( poly_alr IN ) ;
+- net652
+( poly_als OUT ) ( poly_alw IN ) ;
+- net653
+( poly_alt OUT ) ( poly_alu IN ) ;
+- net654
+( poly_alu OUT ) ( poly_alv IN ) ;
+- net655
+( poly_alv OUT ) ( poly_alw IN ) ;
+- net656
+( poly_alw OUT ) ( Q24 nw ) ;
+- net657
+( Q20 ne ) ( poly_alx IN ) ;
+- net658
+( poly_alx OUT ) ( poly_aly IN ) ;
+- net659
+( poly_alx OUT ) ( poly_al1 IN ) ;
+- net660
+( poly_aly OUT ) ( poly_alz IN ) ;
+- net661
+( poly_aly OUT ) ( poly_al2 IN ) ;
+- net662
+( poly_alz OUT ) ( poly_al3 IN ) ;
+- net663
+( poly_al0 OUT ) ( poly_al4 IN ) ;
+- net664
+( poly_al1 OUT ) ( poly_al0 IN ) ;
+- net665
+( poly_al1 OUT ) ( poly_al5 IN ) ;
+- net666
+( poly_al2 OUT ) ( poly_al1 IN ) ;
+- net667
+( poly_al2 OUT ) ( poly_al6 IN ) ;
+- net668
+( poly_al3 OUT ) ( poly_al2 IN ) ;
+- net669
+( poly_al3 OUT ) ( poly_al7 IN ) ;
+- net670
+( poly_al4 OUT ) ( poly_al5 IN ) ;
+- net671
+( poly_al5 OUT ) ( poly_al6 IN ) ;
+- net672
+( poly_al6 OUT ) ( poly_al7 IN ) ;
+- net673
+( poly_al7 OUT ) ( Q21 sw ) ;
+- net674
+( Q21 ne ) ( poly_al8 IN ) ;
+- net675
+( poly_al8 OUT ) ( poly_al9 IN ) ;
+- net676
+( poly_al8 OUT ) ( poly_amc IN ) ;
+- net677
+( poly_al9 OUT ) ( poly_ama IN ) ;
+- net678
+( poly_al9 OUT ) ( poly_amd IN ) ;
+- net679
+( poly_ama OUT ) ( poly_amb IN ) ;
+- net680
+( poly_ama OUT ) ( poly_ame IN ) ;
+- net681
+( poly_amb OUT ) ( poly_amf IN ) ;
+- net682
+( poly_amc OUT ) ( poly_amg IN ) ;
+- net683
+( poly_amd OUT ) ( poly_amc IN ) ;
+- net684
+( poly_amd OUT ) ( poly_amh IN ) ;
+- net685
+( poly_ame OUT ) ( poly_amd IN ) ;
+- net686
+( poly_ame OUT ) ( poly_ami IN ) ;
+- net687
+( poly_amf OUT ) ( poly_ame IN ) ;
+- net688
+( poly_amf OUT ) ( poly_amj IN ) ;
+- net689
+( poly_amg OUT ) ( poly_amh IN ) ;
+- net690
+( poly_amh OUT ) ( poly_ami IN ) ;
+- net691
+( poly_ami OUT ) ( poly_amj IN ) ;
+- net692
+( poly_amj OUT ) ( Q22 sw ) ;
+- net693
+( Q22 ne ) ( poly_amk IN ) ;
+- net694
+( poly_amk OUT ) ( poly_aml IN ) ;
+- net695
+( poly_amk OUT ) ( poly_amo IN ) ;
+- net696
+( poly_aml OUT ) ( poly_amm IN ) ;
+- net697
+( poly_aml OUT ) ( poly_amp IN ) ;
+- net698
+( poly_amm OUT ) ( poly_amq IN ) ;
+- net699
+( poly_amn OUT ) ( poly_amr IN ) ;
+- net700
+( poly_amo OUT ) ( poly_amn IN ) ;
+- net701
+( poly_amo OUT ) ( poly_ams IN ) ;
+- net702
+( poly_amp OUT ) ( poly_amo IN ) ;
+- net703
+( poly_amp OUT ) ( poly_amt IN ) ;
+- net704
+( poly_amq OUT ) ( poly_amp IN ) ;
+- net705
+( poly_amq OUT ) ( poly_amu IN ) ;
+- net706
+( poly_amr OUT ) ( poly_ams IN ) ;
+- net707
+( poly_ams OUT ) ( poly_amt IN ) ;
+- net708
+( poly_amt OUT ) ( poly_amu IN ) ;
+- net709
+( poly_amu OUT ) ( Q23 sw ) ;
+- net710
+( Q23 ne ) ( poly_amv IN ) ;
+- net711
+( poly_amv OUT ) ( poly_amw IN ) ;
+- net712
+( poly_amv OUT ) ( poly_amz IN ) ;
+- net713
+( poly_amw OUT ) ( poly_amx IN ) ;
+- net714
+( poly_amw OUT ) ( poly_am0 IN ) ;
+- net715
+( poly_amx OUT ) ( poly_amy IN ) ;
+- net716
+( poly_amx OUT ) ( poly_am1 IN ) ;
+- net717
+( poly_amy OUT ) ( poly_am2 IN ) ;
+- net718
+( poly_amz OUT ) ( poly_am3 IN ) ;
+- net719
+( poly_am0 OUT ) ( poly_amz IN ) ;
+- net720
+( poly_am0 OUT ) ( poly_am4 IN ) ;
+- net721
+( poly_am1 OUT ) ( poly_am0 IN ) ;
+- net722
+( poly_am1 OUT ) ( poly_am5 IN ) ;
+- net723
+( poly_am2 OUT ) ( poly_am1 IN ) ;
+- net724
+( poly_am2 OUT ) ( poly_am6 IN ) ;
+- net725
+( poly_am3 OUT ) ( poly_am4 IN ) ;
+- net726
+( poly_am4 OUT ) ( poly_am5 IN ) ;
+- net727
+( poly_am5 OUT ) ( poly_am6 IN ) ;
+- net728
+( poly_am6 OUT ) ( Q24 sw ) ;
+END NETS
+
+END DESIGN
